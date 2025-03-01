@@ -32,7 +32,7 @@
 - !<ScriptComponent/1bef6d67-68bf-4ca3-ac33-ab8f49d57a48>
   PrefabRemaps:
     []
-  Name: TweenValue
+  Name: TweenValue 2
   Enabled: true
   ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
   ScriptInputsDefault:
@@ -148,7 +148,7 @@
 - !<ScriptComponent/383c2ae3-e62f-4251-a10d-d4b3256923b1>
   PrefabRemaps:
     []
-  Name: TweenValue
+  Name: TweenValue 2
   Enabled: true
   ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
   ScriptInputsDefault:
@@ -215,7 +215,7 @@
 - !<ScriptComponent/39511e3b-3201-4bd0-8767-985800de12a0>
   PrefabRemaps:
     []
-  Name: TweenValue
+  Name: TweenValue 2
   Enabled: true
   ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
   ScriptInputsDefault:
@@ -298,7 +298,7 @@
 - !<ScriptComponent/4c274e19-38cd-46bc-b026-d697a27743a2>
   PrefabRemaps:
     []
-  Name: TweenValue
+  Name: TweenValue 2
   Enabled: true
   ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
   ScriptInputsDefault:
@@ -413,7 +413,7 @@
 - !<ScriptComponent/61f4a350-dc8d-4583-bd4d-4fd5067d342f>
   PrefabRemaps:
     []
-  Name: TweenValue
+  Name: TweenValue 2
   Enabled: true
   ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
   ScriptInputsDefault:
@@ -623,7 +623,7 @@
 - !<ScriptComponent/a9052747-0283-4e58-8498-33317970843b>
   PrefabRemaps:
     []
-  Name: TweenValue
+  Name: TweenValue 2
   Enabled: true
   ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
   ScriptInputsDefault:
@@ -707,7 +707,7 @@
 - !<ScriptComponent/c8a8fd39-f87a-4670-ad0f-333eb32b60a2>
   PrefabRemaps:
     []
-  Name: TweenChain
+  Name: TweenChain 2
   Enabled: true
   ScriptAsset: !<reference> e8eda546-3860-4cef-9206-52437ac85077
   ScriptInputsDefault:
@@ -765,7 +765,7 @@
 - !<ScriptComponent/ddbbcd61-d74e-4c15-9c0e-b3331060a231>
   PrefabRemaps:
     []
-  Name: TweenValue
+  Name: TweenValue 2
   Enabled: true
   ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
   ScriptInputsDefault:

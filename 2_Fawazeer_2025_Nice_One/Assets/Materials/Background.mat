@@ -97,8 +97,8 @@
         id: cf490fa5-4789-41b0-a5a6-8b15eecdea57
         sampler:
           filteringMode: Trilinear
-          wrapModeU: ClampToBorderColor
-          wrapModeV: ClampToBorderColor
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
           wrapModeW: ClampToEdge
           borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
           mipmaps: false

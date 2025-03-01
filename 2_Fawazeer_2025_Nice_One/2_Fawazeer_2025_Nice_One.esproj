@@ -22,7 +22,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Fawazeer-Nice One
+  lensName: Fawazeer Nice One
   lensDescriptors:
     []
   lensApplicability:
@@ -32,7 +32,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 680b23350250fa38c713f63e6681aece
+  iconHash: e239d5cb9dec3134001a50f54dd0ea9a
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.6.2.25021502

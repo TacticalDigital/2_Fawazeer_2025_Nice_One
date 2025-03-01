@@ -12,7 +12,7 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Size
+    CompressorName: Performance
     CompressionSettings: !<TextureCompressionSettings>
       Level: Medium
   ExtraData:
