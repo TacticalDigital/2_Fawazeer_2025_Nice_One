@@ -16,4 +16,4 @@
   CompressionSettings: !<SingleCompressionSettings>
     CompressorName: Performance
     CompressionSettings: !<TextureCompressionSettings>
-      Level: Medium
+      Level: Low
