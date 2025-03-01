@@ -1,46 +1,46 @@
-- !<AssetImportMetadata/17080f3e-9dac-456a-b359-281581f2ef97>
+- !<AssetImportMetadata/4144dede-be56-43fc-84dd-21180e7240fb>
   ImportedAssetIds:
-    VFXGraph: !<reference> 1b8fbd1c-8d82-4f63-a1e9-53eec6eedd42
+    VFXGraph: !<reference> 771628e6-8b8c-4ee4-b8c5-e973f9c70d62
   ImporterName: VFXAssetImporter
-  PrimaryAsset: !<reference> 1b8fbd1c-8d82-4f63-a1e9-53eec6eedd42
+  PrimaryAsset: !<reference> 771628e6-8b8c-4ee4-b8c5-e973f9c70d62
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
     {}
   AssetDataMap:
-    VFXGraph: !<own> 19017c2c-907c-4644-81e4-fc39f435fb7b
+    VFXGraph: !<own> e085d7c1-a383-4bcd-bc68-99c42ad5e807
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<VFXAssetData/19017c2c-907c-4644-81e4-fc39f435fb7b>
+- !<VFXAssetData/e085d7c1-a383-4bcd-bc68-99c42ad5e807>
   Mesh: !<reference> 00000000-0000-0000-0000-000000000000
   SystemPassProperties:
-    39: !<VFXSystemPassProperties/61dd1d2c-16e9-4f5c-9e0b-c041ebb2cfb3>
+    39: !<VFXSystemPassProperties/48fb59c3-23f6-49cd-bd1e-d91673c2dfbf>
       FeedbackProperties:
         {}
       SimulateProperties:
         emit:
           typeIdx: 1
-          value: 0.000000
+          value: 1.000000
         Tweak_N79:
           typeIdx: 5
-          value: {x: 1.000000, y: 0.688151, z: 0.504082, w: 1.000000}
+          value: {x: 1.000000, y: 0.765637, z: 0.573892, w: 1.000000}
         Tweak_N80:
           typeIdx: 5
-          value: {x: 1.000000, y: 0.708370, z: 0.204623, w: 1.000000}
+          value: {x: 1.000000, y: 0.724788, z: 0.449577, w: 1.000000}
         force:
           typeIdx: 1
-          value: 1.000000
+          value: 2.500000
         push:
           typeIdx: 1
-          value: -1.000000
+          value: 2.000000
       RenderProperties:
         Tweak_N29:
           typeIdx: 9
           value:
-            id: a47d389c-5f94-454e-b49d-84611b49dbdb
+            id: 7a25d40e-da72-49bc-ae57-9fcdcadf3596
             sampler:
               filteringMode: Trilinear
               wrapModeU: Repeat
