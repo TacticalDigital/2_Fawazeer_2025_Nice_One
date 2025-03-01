@@ -1170,7 +1170,7 @@
   PrefabRemaps:
     []
   Name: Beauty
-  Enabled: false
+  Enabled: true
   Layers: 32
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 40.000000}
@@ -1794,7 +1794,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 7ed4dbb5-d88b-49ac-bcdb-cac9b28f9abb
-    - !<own> 4746608a-e358-4d6e-8c91-89a83d2bd13d
   Components:
     - !<own> 22786206-4806-40d1-8c57-92e6776e9a77
 - !<Image/271dc674-4f15-4b42-8fe3-799fa877d9fe>
@@ -2907,10 +2906,10 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -2.594218
-    bottom: -1.975378
-    right: 2.572731
-    top: 1.998295
+    left: -2.513107
+    bottom: -1.919338
+    right: 2.527669
+    top: 1.904896
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -3505,21 +3504,6 @@
     []
   Components:
     - !<own> cb4791fa-82d9-475c-a312-5ebd6914a45a
-- !<SceneObject/4746608a-e358-4d6e-8c91-89a83d2bd13d>
-  PrefabRemaps:
-    []
-  Name: Effects
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    []
 - !<ScreenTransform/474fef28-a10d-4bfa-98b7-4240fcb70e15>
   PrefabRemaps:
     []
@@ -4127,10 +4111,10 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -2.181133
-    bottom: -2.033383
-    right: 2.160342
-    top: 2.019589
+    left: -2.063970
+    bottom: -1.919069
+    right: 2.043180
+    top: 1.895749
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -8386,7 +8370,7 @@
   PrefabRemaps:
     []
   Name: Gender - F 1
-  Enabled: false
+  Enabled: true
   Layers: 1048576
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -9214,7 +9198,7 @@
   PrefabRemaps:
     []
   Name: Effects
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -11917,7 +11901,7 @@
   PrefabRemaps:
     []
   Name: Gender - M 1
-  Enabled: false
+  Enabled: true
   Layers: 1048576
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
