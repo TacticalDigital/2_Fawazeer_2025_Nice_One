@@ -1,0 +1,136 @@
+- !<AssetImportMetadata/54bad606-c033-4561-b377-f931aa7ab430>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 51744a43-0d1d-45ef-afa8-06b61cfc30b8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 51744a43-0d1d-45ef-afa8-06b61cfc30b8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 75a28372-ef28-4e2a-bf91-2f602f795acc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/75a28372-ef28-4e2a-bf91-2f602f795acc>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f3cc040a-b244-4929-94cf-73ac16456fd2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    answerDelay: false
+    button1CorrectImage: false
+    button1Image: false
+    button1IncorrectImage: false
+    button1Script: false
+    button1Text: false
+    button2CorrectImage: false
+    button2Image: false
+    button2IncorrectImage: false
+    button2Script: false
+    button2Text: false
+    correctAnswerIndex: false
+    imageFadeTime: false
+    imageOffsetY: false
+    mainManager: false
+    questionCorrectImage: false
+    questionImage: false
+    questionIncorrectImage: false
+    questionText: false
+    riddleFadeMaterials: false
+    riddleFadeObjects: false
+    riddleFadeTime: false
+    riddleGroup: false
+    riddleTextFadeColor: false
+    riddleTextObjects: false
+    sfx: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - riddleGroup: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      correctAnswerIndex: 0
+      riddleFadeObjects: !<reference.SceneObject[]>
+        []
+      riddleFadeMaterials: !<reference.Material[]>
+        []
+      riddleTextObjects: !<reference.Text[]>
+        []
+      riddleTextFadeColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
+      riddleFadeTime: !<float> 1.000000
+      button1Image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      button1Default: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      button1Pressed: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      button2Image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      button2Default: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      button2Pressed: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      mainManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      assetsDelay: !<float> 1.000000
+      delayToRiddle: !<float> 2.000000
+      universalObjects: !<reference.SceneObject[]>
+        []
+      maleGarmentsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      femaleGarmentsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      disableObjects: !<reference.SceneObject[]>
+        []
+      immediateDressObjects: !<reference.SceneObject[]>
+        []
+      dressScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      riddleButtons: !<reference.SceneObject[]>
+        []
+      buttonDefaultTextures: !<reference.Texture[]>
+        []
+      buttonPressedTextures: !<reference.Texture[]>
+        []
+      buttonImages: !<reference.Image[]>
+        []
+      riddleObjects: !<reference.SceneObject[]>
+        []
+      button1Script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      button2Script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      defaultTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      pressedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      buttonScripts: !<reference.ScriptComponent[]>
+        []
+      answerButtons: !<reference.SceneObject[]>
+        []
+      fadeDuration: 0.800000
+      button1Correct: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      button1Incorrect: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      button2Correct: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      button2Incorrect: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      sfx: !<reference.AudioComponent[]>
+        []
+      questionImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      questionDefault: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      questionCorrect: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      questionIncorrect: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      imageFadeTime: 0.500000
+      imageOffsetY: !<float> 30.000000
+      answerDelay: 0.200000
+      button1CorrectImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      button1IncorrectImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      button2CorrectImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      button2IncorrectImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      questionCorrectImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      questionIncorrectImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      button1Text: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      button1CorrectText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      button1IncorrectText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      button2Text: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      button2CorrectText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      button2IncorrectText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      questionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      button1PressedImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      button2PressedImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      questionPressedImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

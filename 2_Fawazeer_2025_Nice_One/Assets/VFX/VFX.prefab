@@ -1,0 +1,794 @@
+- !<ObjectPrefab/418b1fa0-fb76-498f-a879-b66459301ff6>
+  PackagePath: ""
+  objects:
+    - !<own> df2cb2eb-7a07-40de-9d5d-c9dd42aea3e5
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/07e57232-ccfd-43e1-b8f9-d55a5505415a>
+  PrefabRemaps:
+    []
+  Name: vfx controller
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 74cacd6e-b28d-44a1-8638-41e79d034f3b
+    - !<own> cbc12dc6-20ab-40a1-9083-1c186902176f
+  Components:
+    []
+- !<PostEffectVisual/0aa4b709-3ba9-45a0-a1b9-24f7c370efbf>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 65adb3c3-3db1-472a-805b-73bfb11c9a7c
+- !<ScriptComponent/101987e2-4d12-4f9a-a139-fdcb6c619f12>
+  PrefabRemaps:
+    []
+  Name: TweenValue
+  Enabled: true
+  ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
+  ScriptInputsDefault:
+    startInt: true
+    endInt: true
+    startVector2: true
+    endVector2: true
+    startVector3: true
+    endVector3: true
+    startVector4: true
+    endVector4: true
+    startRGB: true
+    endRGB: true
+    startRGBA: true
+    endRGBA: true
+    propTargetScript: true
+    propName: true
+    funcTargetScript: true
+    funcName: true
+    materialMeshVisual: true
+    material: true
+    materialScriptName: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: Transition_push_2
+      playAutomatically: false
+      loopType: 3
+      dataType: 1
+      startInt: 0
+      endInt: 1
+      startFloat: !<float> -1.000000
+      endFloat: !<float> 10.000000
+      startVector2: !<Vec2> {x: 0.000000, y: 0.000000}
+      endVector2: !<Vec2> {x: 1.000000, y: 1.000000}
+      startVector3: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endVector3: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startVector4: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endVector4: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      startRGB: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRGBA: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      time: 0.100000
+      delay: 0.500000
+      callbackType: 4
+      propTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      propName: ""
+      funcTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      funcName: ""
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materialScriptName: baseColor
+      vfxComponent: !<reference.VFXComponent> bda4eb8f-14cc-4802-a4a3-768de96476ac
+      vfxAsset: !<reference.VFXAsset> 771628e6-8b8c-4ee4-b8c5-e973f9c70d62
+      vfxScriptName: push
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<VFXComponent/1a1ebb07-7d4f-4fec-8ae2-82e1c567a7fd>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 100
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> cb82929b-67ca-4d4a-8869-741c95446892
+- !<SceneObject/217c9375-3632-4f80-9e4f-a5ec5096cad9>
+  PrefabRemaps:
+    []
+  Name: VFX smoke_2
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -100.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bda4eb8f-14cc-4802-a4a3-768de96476ac
+- !<ScriptComponent/283c27eb-9c59-4555-9cfc-ab3cecb58871>
+  PrefabRemaps:
+    []
+  Name: TweenValue
+  Enabled: true
+  ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
+  ScriptInputsDefault:
+    loopType: true
+    startInt: true
+    endInt: true
+    startFloat: true
+    startVector2: true
+    endVector2: true
+    startVector3: true
+    endVector3: true
+    startVector4: true
+    endVector4: true
+    startRGB: true
+    endRGB: true
+    startRGBA: true
+    endRGBA: true
+    propTargetScript: true
+    propName: true
+    funcTargetScript: true
+    funcName: true
+    materialMeshVisual: true
+    material: true
+    materialScriptName: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: bokeh_In_2
+      playAutomatically: false
+      loopType: 0
+      dataType: 1
+      startInt: 0
+      endInt: 1
+      startFloat: !<float> 0.000000
+      endFloat: !<float> 500.000000
+      startVector2: !<Vec2> {x: 0.000000, y: 0.000000}
+      endVector2: !<Vec2> {x: 1.000000, y: 1.000000}
+      startVector3: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endVector3: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startVector4: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endVector4: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      startRGB: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRGBA: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      time: 0.100000
+      delay: 0.500000
+      callbackType: 4
+      propTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      propName: ""
+      funcTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      funcName: ""
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materialScriptName: baseColor
+      vfxComponent: !<reference.VFXComponent> 1a1ebb07-7d4f-4fec-8ae2-82e1c567a7fd
+      vfxAsset: !<reference.VFXAsset> cb82929b-67ca-4d4a-8869-741c95446892
+      vfxScriptName: emit
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/47cf0287-a78f-47e6-982e-55fe4419656e>
+  PrefabRemaps:
+    []
+  Name: TweenValue
+  Enabled: true
+  ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
+  ScriptInputsDefault:
+    startInt: true
+    endInt: true
+    startVector2: true
+    endVector2: true
+    startVector3: true
+    endVector3: true
+    startVector4: true
+    endVector4: true
+    startRGB: true
+    endRGB: true
+    startRGBA: true
+    endRGBA: true
+    propTargetScript: true
+    propName: true
+    funcTargetScript: true
+    funcName: true
+    materialMeshVisual: true
+    material: true
+    materialScriptName: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: Transition_push
+      playAutomatically: false
+      loopType: 3
+      dataType: 1
+      startInt: 0
+      endInt: 1
+      startFloat: !<float> -1.000000
+      endFloat: !<float> 10.000000
+      startVector2: !<Vec2> {x: 0.000000, y: 0.000000}
+      endVector2: !<Vec2> {x: 1.000000, y: 1.000000}
+      startVector3: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endVector3: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startVector4: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endVector4: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      startRGB: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRGBA: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      time: 0.100000
+      delay: 0.500000
+      callbackType: 4
+      propTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      propName: ""
+      funcTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      funcName: ""
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materialScriptName: baseColor
+      vfxComponent: !<reference.VFXComponent> a76e0ad1-9510-472f-b526-8aef34a36464
+      vfxAsset: !<reference.VFXAsset> 1b8fbd1c-8d82-4f63-a1e9-53eec6eedd42
+      vfxScriptName: push
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/520b80aa-0ebc-41e5-82f5-f2f1f919b7ea>
+  PrefabRemaps:
+    []
+  Name: TweenValue
+  Enabled: true
+  ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
+  ScriptInputsDefault:
+    startInt: true
+    endInt: true
+    startFloat: true
+    startVector2: true
+    endVector2: true
+    startVector3: true
+    endVector3: true
+    startVector4: true
+    endVector4: true
+    endRGB: true
+    endRGBA: true
+    propTargetScript: true
+    propName: true
+    funcTargetScript: true
+    funcName: true
+    materialScriptName: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: night
+      playAutomatically: false
+      loopType: 3
+      dataType: 6
+      startInt: 0
+      endInt: 1
+      startFloat: !<float> 0.000000
+      endFloat: !<float> 0.000000
+      startVector2: !<Vec2> {x: 0.000000, y: 0.000000}
+      endVector2: !<Vec2> {x: 1.000000, y: 1.000000}
+      startVector3: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endVector3: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startVector4: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endVector4: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      startRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      endRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
+      endRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      time: 1.250000
+      delay: 0.750000
+      callbackType: 3
+      propTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      propName: ""
+      funcTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      funcName: ""
+      materialMeshVisual: !<reference.MaterialMeshVisual> 0aa4b709-3ba9-45a0-a1b9-24f7c370efbf
+      material: !<reference.Material> 65adb3c3-3db1-472a-805b-73bfb11c9a7c
+      materialScriptName: baseColor
+      vfxComponent: !<reference.VFXComponent> a76e0ad1-9510-472f-b526-8aef34a36464
+      vfxAsset: !<reference.VFXAsset> a8b867c0-cca9-4986-b3e6-d9902b80ebdf
+      vfxScriptName: push
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/5d935875-187f-43ea-9dce-b834d3d81f52>
+  PrefabRemaps:
+    []
+  Name: TweenValue
+  Enabled: true
+  ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
+  ScriptInputsDefault:
+    startInt: true
+    endInt: true
+    startFloat: true
+    startVector2: true
+    endVector2: true
+    startVector3: true
+    endVector3: true
+    startVector4: true
+    endVector4: true
+    startRGB: true
+    endRGB: true
+    startRGBA: true
+    endRGBA: true
+    delay: true
+    propTargetScript: true
+    propName: true
+    funcTargetScript: true
+    funcName: true
+    materialMeshVisual: true
+    material: true
+    materialScriptName: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: Transition_In_2
+      playAutomatically: false
+      loopType: 3
+      dataType: 1
+      startInt: 0
+      endInt: 1
+      startFloat: !<float> 0.000000
+      endFloat: !<float> 2000.000000
+      startVector2: !<Vec2> {x: 0.000000, y: 0.000000}
+      endVector2: !<Vec2> {x: 1.000000, y: 1.000000}
+      startVector3: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endVector3: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startVector4: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endVector4: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      startRGB: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRGBA: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      time: 0.500000
+      delay: !<float> 0.000000
+      callbackType: 4
+      propTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      propName: ""
+      funcTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      funcName: ""
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materialScriptName: baseColor
+      vfxComponent: !<reference.VFXComponent> bda4eb8f-14cc-4802-a4a3-768de96476ac
+      vfxAsset: !<reference.VFXAsset> 771628e6-8b8c-4ee4-b8c5-e973f9c70d62
+      vfxScriptName: emit
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/70bb94a0-339b-4136-984c-5231281e07ca>
+  PrefabRemaps:
+    []
+  Name: Night
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0aa4b709-3ba9-45a0-a1b9-24f7c370efbf
+- !<VFXComponent/726842fe-8e17-4075-8ee6-c7aa6741eb88>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 100
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> f1035c57-848f-448e-b8c5-78b133ffa0e5
+- !<VFXComponent/72859737-3c9f-4507-9b42-6dfe03ad706a>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 5002e262-7a14-427a-bc23-b735d975190b
+- !<SceneObject/74cacd6e-b28d-44a1-8638-41e79d034f3b>
+  PrefabRemaps:
+    []
+  Name: Transition_Chain
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f3aa7aad-7dcb-414c-84ec-6c48deda6b2b
+- !<SceneObject/7b29254e-fd80-48f4-8f93-a86f928ff7f0>
+  PrefabRemaps:
+    []
+  Name: top_vfx
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 8.500000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a6367740-94de-4eb9-b4d0-0fe74ad7e0ac
+- !<ScriptComponent/7c22d19e-ac55-4f3f-911d-3e07066dfe2c>
+  PrefabRemaps:
+    []
+  Name: TweenValue
+  Enabled: true
+  ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
+  ScriptInputsDefault:
+    loopType: true
+    startInt: true
+    endInt: true
+    startFloat: true
+    startVector2: true
+    endVector2: true
+    startVector3: true
+    endVector3: true
+    startVector4: true
+    endVector4: true
+    startRGB: true
+    endRGB: true
+    startRGBA: true
+    endRGBA: true
+    propTargetScript: true
+    propName: true
+    funcTargetScript: true
+    funcName: true
+    materialMeshVisual: true
+    material: true
+    materialScriptName: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: bokeh_In
+      playAutomatically: false
+      loopType: 0
+      dataType: 1
+      startInt: 0
+      endInt: 1
+      startFloat: !<float> 0.000000
+      endFloat: !<float> 150.000000
+      startVector2: !<Vec2> {x: 0.000000, y: 0.000000}
+      endVector2: !<Vec2> {x: 1.000000, y: 1.000000}
+      startVector3: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endVector3: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startVector4: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endVector4: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      startRGB: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRGBA: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      time: 0.100000
+      delay: 0.500000
+      callbackType: 4
+      propTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      propName: ""
+      funcTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      funcName: ""
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materialScriptName: baseColor
+      vfxComponent: !<reference.VFXComponent> 726842fe-8e17-4075-8ee6-c7aa6741eb88
+      vfxAsset: !<reference.VFXAsset> f1035c57-848f-448e-b8c5-78b133ffa0e5
+      vfxScriptName: emit
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/9aeb332d-72f9-47b4-9180-0401847f90ab>
+  PrefabRemaps:
+    []
+  Name: Bokeh
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1a1ebb07-7d4f-4fec-8ae2-82e1c567a7fd
+- !<SceneObject/a48d2cb8-1066-4716-aff0-45c6b16347b9>
+  PrefabRemaps:
+    []
+  Name: riddle state
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a729df7c-f0c9-4f56-a911-6c660c3714b6
+    - !<own> 9aeb332d-72f9-47b4-9180-0401847f90ab
+  Components:
+    []
+- !<VFXComponent/a6367740-94de-4eb9-b4d0-0fe74ad7e0ac>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 100
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> cf91c550-39c3-4c71-8916-96014a15cbe9
+- !<SceneObject/a729df7c-f0c9-4f56-a911-6c660c3714b6>
+  PrefabRemaps:
+    []
+  Name: frame_vfx
+  Enabled: false
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 726842fe-8e17-4075-8ee6-c7aa6741eb88
+- !<VFXComponent/a76e0ad1-9510-472f-b526-8aef34a36464>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 113
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 1b8fbd1c-8d82-4f63-a1e9-53eec6eedd42
+- !<VFXComponent/bda4eb8f-14cc-4802-a4a3-768de96476ac>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 112
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 5b7998a5-f9f7-4201-9384-88a39abb6a2b
+- !<SceneObject/bec8c50d-8a91-455f-87ca-d00796c178c3>
+  PrefabRemaps:
+    []
+  Name: VFX frame
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -100.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.750000, y: 0.750000, z: 0.750000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a76e0ad1-9510-472f-b526-8aef34a36464
+- !<SceneObject/cbc12dc6-20ab-40a1-9083-1c186902176f>
+  PrefabRemaps:
+    []
+  Name: vfx tweens
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> de7277f2-ec4f-42f8-8521-73838d51e231
+    - !<own> 47cf0287-a78f-47e6-982e-55fe4419656e
+    - !<own> 520b80aa-0ebc-41e5-82f5-f2f1f919b7ea
+    - !<own> 5d935875-187f-43ea-9dce-b834d3d81f52
+    - !<own> 101987e2-4d12-4f9a-a139-fdcb6c619f12
+    - !<own> 7c22d19e-ac55-4f3f-911d-3e07066dfe2c
+    - !<own> 283c27eb-9c59-4555-9cfc-ab3cecb58871
+- !<ScriptComponent/de7277f2-ec4f-42f8-8521-73838d51e231>
+  PrefabRemaps:
+    []
+  Name: TweenValue
+  Enabled: true
+  ScriptAsset: !<reference> b74269ea-652c-47fa-a442-8f8812989a62
+  ScriptInputsDefault:
+    startInt: true
+    endInt: true
+    startFloat: true
+    startVector2: true
+    endVector2: true
+    startVector3: true
+    endVector3: true
+    startVector4: true
+    endVector4: true
+    startRGB: true
+    endRGB: true
+    startRGBA: true
+    endRGBA: true
+    propTargetScript: true
+    propName: true
+    funcTargetScript: true
+    funcName: true
+    materialMeshVisual: true
+    material: true
+    materialScriptName: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: Transition_In
+      playAutomatically: false
+      loopType: 3
+      dataType: 1
+      startInt: 0
+      endInt: 1
+      startFloat: !<float> 0.000000
+      endFloat: !<float> 2000.000000
+      startVector2: !<Vec2> {x: 0.000000, y: 0.000000}
+      endVector2: !<Vec2> {x: 1.000000, y: 1.000000}
+      startVector3: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endVector3: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startVector4: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endVector4: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      startRGB: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endRGB: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      startRGBA: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      endRGBA: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      time: 0.100000
+      delay: 0.500000
+      callbackType: 4
+      propTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      propName: ""
+      funcTargetScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      funcName: ""
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      materialScriptName: baseColor
+      vfxComponent: !<reference.VFXComponent> a76e0ad1-9510-472f-b526-8aef34a36464
+      vfxAsset: !<reference.VFXAsset> 1b8fbd1c-8d82-4f63-a1e9-53eec6eedd42
+      vfxScriptName: emit
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/df2cb2eb-7a07-40de-9d5d-c9dd42aea3e5>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a48d2cb8-1066-4716-aff0-45c6b16347b9
+    - !<own> fc956b86-dafb-4d29-89bd-63d884b901ec
+    - !<own> 07e57232-ccfd-43e1-b8f9-d55a5505415a
+    - !<own> bec8c50d-8a91-455f-87ca-d00796c178c3
+    - !<own> 217c9375-3632-4f80-9e4f-a5ec5096cad9
+    - !<own> 7b29254e-fd80-48f4-8f93-a86f928ff7f0
+    - !<own> 70bb94a0-339b-4136-984c-5231281e07ca
+  Components:
+    []
+- !<ScriptComponent/f3aa7aad-7dcb-414c-84ec-6c48deda6b2b>
+  PrefabRemaps:
+    []
+  Name: TweenChain
+  Enabled: true
+  ScriptAsset: !<reference> e8eda546-3860-4cef-9206-52437ac85077
+  ScriptInputsDefault:
+    playAutomatically: true
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: VFX transition
+      playAutomatically: true
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> cbc12dc6-20ab-40a1-9083-1c186902176f
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - Transition_In
+        - Transition_push
+        - night
+        - Transition_In_2
+        - bokeh_In
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/fc956b86-dafb-4d29-89bd-63d884b901ec>
+  PrefabRemaps:
+    []
+  Name: Bokeh Yellow
+  Enabled: false
+  Layers: 16
+  LocalTransform:
+    position: {x: 800.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 72859737-3c9f-4507-9b42-6dfe03ad706a

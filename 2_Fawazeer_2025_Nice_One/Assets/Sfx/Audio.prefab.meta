@@ -1,0 +1,181 @@
+- !<AssetImportMetadata/b1ff268d-4db2-438f-9336-97d0cd091831>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 25b074ab-0b5d-4e55-95b9-8a8ff0a979d2
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 25b074ab-0b5d-4e55-95b9-8a8ff0a979d2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 05d0e72c-faec-47df-b3c9-0dad0b968867
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/024fc11e-23c8-48ea-9ec8-f66d7ef02aa0>
+  PrefabRemaps:
+    []
+  Name: Correct
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 30f68080-737e-47d5-aa8e-18c9640cccba
+- !<SceneObject/05c13575-99a7-420f-b322-7dc9aa3061e9>
+  PrefabRemaps:
+    []
+  Name: Wrong
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8c2eec09-0d3e-4c48-95da-21e9e9b4f774
+- !<ObjectPrefabAssetData/05d0e72c-faec-47df-b3c9-0dad0b968867>
+  SourceRemaps:
+    - 25b074ab-0b5d-4e55-95b9-8a8ff0a979d2: 7ff0d8b1-7910-4c9a-af5e-7e849faae33e
+    - 34ee20b3-7ea2-467a-a445-d0c590e0fe23: 05c13575-99a7-420f-b322-7dc9aa3061e9
+    - 3cfa75e8-27b5-41f8-bba0-d99b684961f3: 30f68080-737e-47d5-aa8e-18c9640cccba
+    - 5e4817ba-83d2-4833-a6ad-45a31df70554: 8c2eec09-0d3e-4c48-95da-21e9e9b4f774
+    - 608dbede-aa5b-46bd-843a-76d7ba4e869f: 024fc11e-23c8-48ea-9ec8-f66d7ef02aa0
+    - 66785ab0-8122-4e9b-8cfe-08988118fe48: f599eb13-5a13-4645-9623-736a6ad846d6
+    - 73e97f1c-3da8-4d76-95a2-f287f82280c5: 4c61c8ba-66df-4c77-a503-cfbb302bb790
+    - 7df83627-d3e0-4eaa-b6b8-5fc9ee524897: 4aa97700-6216-4d48-ad7c-a115012b5e08
+    - a2fe2740-2a0a-497f-8af5-59bb7b657186: d4238de4-33e2-4aa4-8e03-01ff7f0892e4
+    - e4657c58-f36b-478a-9f35-2ebf5f41b572: 35a1c9ed-f8f2-4aee-a44f-fe91e79139a6
+  SourceState: !<own> 7ff0d8b1-7910-4c9a-af5e-7e849faae33e
+- !<AudioComponent/30f68080-737e-47d5-aa8e-18c9640cccba>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 35882a39-abe7-4870-b3a7-72f2d80fa179
+  EnableAutoplayLoop: false
+  Volume: 0.100000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/35a1c9ed-f8f2-4aee-a44f-fe91e79139a6>
+  PrefabRemaps:
+    []
+  Name: Music
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4c61c8ba-66df-4c77-a503-cfbb302bb790
+- !<SceneObject/4aa97700-6216-4d48-ad7c-a115012b5e08>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 35a1c9ed-f8f2-4aee-a44f-fe91e79139a6
+    - !<own> 024fc11e-23c8-48ea-9ec8-f66d7ef02aa0
+    - !<own> 05c13575-99a7-420f-b322-7dc9aa3061e9
+    - !<own> d4238de4-33e2-4aa4-8e03-01ff7f0892e4
+  Components:
+    []
+- !<AudioComponent/4c61c8ba-66df-4c77-a503-cfbb302bb790>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 7970be04-82a2-4a61-895d-e74f5177851b
+  EnableAutoplayLoop: true
+  Volume: 0.150000
+  EnableMixToSnap: true
+  RecordVolume: 0.140000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<ObjectPrefab/7ff0d8b1-7910-4c9a-af5e-7e849faae33e>
+  PackagePath: ""
+  objects:
+    - !<own> 4aa97700-6216-4d48-ad7c-a115012b5e08
+  LazyLoading: false
+  RetainAssets: true
+- !<AudioComponent/8c2eec09-0d3e-4c48-95da-21e9e9b4f774>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> c288985e-6e1b-4872-b3e4-0209589ab8f1
+  EnableAutoplayLoop: false
+  Volume: 0.100000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/d4238de4-33e2-4aa4-8e03-01ff7f0892e4>
+  PrefabRemaps:
+    []
+  Name: Chimes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f599eb13-5a13-4645-9623-736a6ad846d6
+- !<AudioComponent/f599eb13-5a13-4645-9623-736a6ad846d6>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> bb28dea2-29b7-49e5-a753-350f4b9ab23c
+  EnableAutoplayLoop: true
+  Volume: 0.100000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false

@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/6259077f-0387-403c-953a-9cbbac544000>
+  ImportedAssetIds:
+    Button: !<reference> 1459896c-fc00-43a7-bb24-2890eb0c9fde
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> 1459896c-fc00-43a7-bb24-2890eb0c9fde
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

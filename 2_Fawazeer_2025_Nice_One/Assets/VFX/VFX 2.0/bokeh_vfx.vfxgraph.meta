@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/cdd17f39-ffd5-4de5-99c1-05b1c0b11a8b>
+  ImportedAssetIds:
+    VFXGraph: !<reference> cb82929b-67ca-4d4a-8869-741c95446892
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> cb82929b-67ca-4d4a-8869-741c95446892
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    VFXGraph: !<own> 19c54fae-74bc-4855-b5e4-a35c1e81fe76
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<VFXAssetData/19c54fae-74bc-4855-b5e4-a35c1e81fe76>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/c4742599-25f0-4b35-9f60-790c5d0c0655>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        colorMin:
+          typeIdx: 5
+          value: {x: 0.979431, y: 0.835859, z: 0.324208, w: 1.000000}
+        colorMax:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.832349, z: 0.473213, w: 1.000000}
+      RenderProperties:
+        flipbookTex:
+          typeIdx: 9
+          value:
+            id: 29ee67c4-63fd-4ff2-b079-a150b49df1b6
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
