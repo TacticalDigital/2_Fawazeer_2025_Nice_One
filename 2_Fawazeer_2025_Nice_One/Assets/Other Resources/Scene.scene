@@ -1217,21 +1217,6 @@
     []
   Components:
     []
-- !<SceneObject/15e3afe8-948a-48b3-84c6-4c8c386289f7>
-  PrefabRemaps:
-    []
-  Name: Glass Front
-  Enabled: false
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 6e24f72f-07de-4c73-bc91-1b06bbf0c2f7
 - !<SceneObject/1744fd6a-95bc-42be-8d1b-37b7da6b75e0>
   PrefabRemaps:
     []
@@ -1499,7 +1484,6 @@
     - !<own> 2eecb923-d7f0-44bb-8af9-9b5747e0ed66
     - !<own> 6c0180b8-026d-47a9-b609-fba3daf389b0
     - !<own> 12b1f27a-d9b6-4c5c-9936-d35da23d6187
-    - !<own> df3c95f6-5849-46ea-a61d-1990c8b8f090
     - !<own> 27ea5b23-f101-464b-baf5-b65f4bd964aa
     - !<own> cf7e2634-d015-45bc-b778-baf7c66ff1d9
     - !<own> d9f34a9f-0d56-4b93-bf90-669f5c8f8ffa
@@ -2081,7 +2065,7 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 17
+  FontSize: 12
   Font: !<reference> a4e0c20e-3ab5-4b91-9f07-5696457a7a21
   LayoutRect:
     left: -7.500000
@@ -4285,10 +4269,10 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -0.689247
+    left: -0.968737
     bottom: -0.783330
-    right: 0.707972
-    top: 0.842400
+    right: 0.965963
+    top: 0.724402
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -4626,7 +4610,7 @@
     {}
   ScriptInputs:
     "":
-      teamLogo: !<reference.Texture> 6e69d755-9ac0-48ef-8489-5ec942da37d1
+      teamLogo: !<reference.Texture> a1127d7c-d882-4f21-b318-6f6155381422
       logoPosition: 5
       logoAlpha: !<float> 1.000000
       logoSize: 0.450000
@@ -4754,22 +4738,6 @@
   Components:
     - !<own> e4fcbd1b-4c6e-4a7a-94d1-2ea2f939c633
     - !<own> 344449ae-fd11-470f-99f2-1efca8bc3fd3
-- !<SceneObject/54a78521-52d1-4c0e-8fc2-aa0ddec605ba>
-  PrefabRemaps:
-    []
-  Name: Send Data To VFX
-  Enabled: true
-  Layers: 1048576
-  LocalTransform:
-    position: {x: -0.007463, y: -0.100710, z: 0.163221}
-    rotation: {x: 83.944580, y: 66.817986, z: 125.741547}
-    scale: {x: 0.135612, y: 0.135613, z: 0.135612}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 7012c033-801a-49ae-99f8-cde3e3575718
-    - !<own> 8c404883-5e70-4df6-ab07-47da473f3638
 - !<SceneObject/54efa1b0-e1e7-4e83-b69a-29e4bfc2259f>
   PrefabRemaps:
     []
@@ -5242,7 +5210,7 @@
     []
   Name: VFX Component
   Enabled: true
-  RenderOrder: 100
+  RenderOrder: 113
   StretchMode: Stretch
   VerticalAlignment: Center
   HorizontalAlignment: Center
@@ -5715,26 +5683,6 @@
   Components:
     - !<own> 11962dfe-8876-41fe-baba-2c7b230605a2
     - !<own> 99179c76-95a3-41e8-b67d-3f12b7b34c54
-- !<RenderMeshVisual/6e24f72f-07de-4c73-bc91-1b06bbf0c2f7>
-  PrefabRemaps:
-    []
-  Name: Render Mesh Visual
-  Enabled: true
-  RenderOrder: 2
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 8600babb-04b2-4203-bc73-5c9e1a190634
-  Mesh: !<reference> f7974e62-e50c-43de-a87e-c48776b4f036
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<ScriptComponent/6e5d4ba0-ca9a-4228-97c9-56a2d9e101ec>
   PrefabRemaps:
     []
@@ -6274,54 +6222,6 @@
   ScriptInputs:
     "":
       {}
-  ScriptTypes:
-    "":
-      {}
-- !<ScriptComponent/7012c033-801a-49ae-99f8-cde3e3575718>
-  PrefabRemaps:
-    []
-  Name: SendDataToVFX
-  Enabled: true
-  ScriptAsset: !<reference> ac2cea89-7708-4c50-9f21-ef0a51f9d3a2
-  ScriptInputsDefault:
-    targetPosition: true
-    targetRotation: true
-    targetScale: true
-    directionValue: true
-    targetDirection: true
-    targetInvTrans: true
-    dimensionValue: true
-    screenToWorldScreenTrans: true
-    screenToWorldCamera: true
-    desiredModelHeight: true
-    worldToScreenObject: true
-    worldToScreenCamera: true
-    localToWorldObj: true
-    screenTransObj: true
-    debug: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      action: meshDimension
-      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      targetRotation: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      targetScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      directionValue: 0
-      targetDirection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      targetInvTrans: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      dimensionValue: aabbMin
-      targetDimension: !<reference.RenderMeshVisual> 6e24f72f-07de-4c73-bc91-1b06bbf0c2f7
-      screenToWorldScreenTrans: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      screenToWorldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
-      desiredModelHeight: !<float> 250.000000
-      worldToScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      worldToScreenCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
-      localToWorldObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      screenTransObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      debug: false
-      vfx: !<reference.VFXComponent> 7d76e117-ff15-4fbd-8dd8-ab33dbfa8c6d
-      vfxScriptName: sdfBboxMin
   ScriptTypes:
     "":
       {}
@@ -6910,7 +6810,7 @@
       materialMeshVisual: !<reference.MaterialMeshVisual> 271dc674-4f15-4b42-8fe3-799fa877d9fe
       material: !<reference.Material> 4b52bd73-c858-419c-bf36-e5ee193f01e0
       materialScriptName: hue
-      vfxComponent: !<reference.VFXComponent> 01a8f875-94c3-4daf-b9ff-260a6a1468cd
+      vfxComponent: !<reference.VFXComponent> adabe054-698c-441b-b6f6-3dd1f1dd5d82
       vfxAsset: !<reference.VFXAsset> 103f8f06-cd07-47a2-8a5f-a54e44eb2fa8
       vfxScriptName: emit
       easingFunction: Linear
@@ -7045,19 +6945,6 @@
     []
   Components:
     - !<own> 9daf03dd-57fc-4ba1-9ffb-a83448c53fe2
-- !<VFXComponent/7d76e117-ff15-4fbd-8dd8-ab33dbfa8c6d>
-  PrefabRemaps:
-    []
-  Name: VFX
-  Enabled: true
-  RenderOrder: 8
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  VFXAsset: !<reference> 8150a0dc-02df-419b-9f70-b971144f1773
 - !<SceneObject/7e343219-e835-4501-8673-c87c297f49de>
   PrefabRemaps:
     []
@@ -7240,6 +7127,7 @@
       assetsDelay: 2.500000
       delayToRiddle: !<float> 2.000000
       universalObjects: !<reference.SceneObject[]>
+        - !<reference> a8ad9361-aa3c-437d-892d-5d945cc08470
         - !<reference> 7ed4dbb5-d88b-49ac-bcdb-cac9b28f9abb
       maleObjects: !<reference.SceneObject[]>
         []
@@ -7340,47 +7228,6 @@
       vfxComponent: !<reference.VFXComponent> f8b65279-8b79-45b4-a38d-de8aa687da12
       vfxAsset: !<reference.VFXAsset> a4dd2427-063e-46ee-98b4-8d97b9a83d12
       vfxScriptName: emit
-      easingFunction: Linear
-      easingType: Out
-  ScriptTypes:
-    "":
-      {}
-- !<ScriptComponent/836c2975-eb53-4e53-986e-8faeec720f6e>
-  PrefabRemaps:
-    []
-  Name: TweenTransform
-  Enabled: true
-  ScriptAsset: !<reference> a9c6158f-ae87-4b58-81ff-6e7fb2c8cc8a
-  ScriptInputsDefault:
-    sceneObjectReference: true
-    tweenName: true
-    playAutomatically: true
-    start: true
-    end: true
-    from: true
-    to: true
-    delay: true
-    isLocal: true
-    easingType: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      tweenName: ""
-      playAutomatically: true
-      loopType: 1
-      type: 2
-      movementType: 3
-      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      offset: !<Vec3> {x: 0.000000, y: 10.000000, z: 0.000000}
-      additive: true
-      time: !<float> 3.000000
-      delay: !<float> 0.000000
-      isLocal: true
       easingFunction: Linear
       easingType: Out
   ScriptTypes:
@@ -7584,7 +7431,7 @@
   PrefabRemaps:
     []
   Name: Scene
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -7969,19 +7816,6 @@
   ScriptTypes:
     "":
       {}
-- !<VFXComponent/88c0d812-6f45-4966-acda-439c94bcf616>
-  PrefabRemaps:
-    []
-  Name: VFX
-  Enabled: true
-  RenderOrder: 8
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  VFXAsset: !<reference> 4c5153e9-cb7c-44ed-a35c-3ccd88bc4bc9
 - !<Image/8989943f-1ca1-4d9d-a830-693073bf065f>
   PrefabRemaps:
     []
@@ -8141,52 +7975,6 @@
       vfxScriptName: emit
       easingFunction: Linear
       easingType: Out
-  ScriptTypes:
-    "":
-      {}
-- !<ScriptComponent/8c404883-5e70-4df6-ab07-47da473f3638>
-  PrefabRemaps:
-    []
-  Name: SendDataToVFX
-  Enabled: true
-  ScriptAsset: !<reference> ac2cea89-7708-4c50-9f21-ef0a51f9d3a2
-  ScriptInputsDefault:
-    targetRotation: true
-    targetScale: true
-    directionValue: true
-    targetDirection: true
-    targetInvTrans: true
-    screenToWorldScreenTrans: true
-    screenToWorldCamera: true
-    desiredModelHeight: true
-    worldToScreenObject: true
-    worldToScreenCamera: true
-    localToWorldObj: true
-    screenTransObj: true
-    debug: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      action: meshDimension
-      targetPosition: !<reference.SceneObject> 15e3afe8-948a-48b3-84c6-4c8c386289f7
-      targetRotation: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      targetScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      directionValue: 0
-      targetDirection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      targetInvTrans: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      dimensionValue: aabbMax
-      targetDimension: !<reference.RenderMeshVisual> 6e24f72f-07de-4c73-bc91-1b06bbf0c2f7
-      screenToWorldScreenTrans: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      screenToWorldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
-      desiredModelHeight: !<float> 250.000000
-      worldToScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      worldToScreenCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
-      localToWorldObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      screenTransObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
-      debug: false
-      vfx: !<reference.VFXComponent> 7d76e117-ff15-4fbd-8dd8-ab33dbfa8c6d
-      vfxScriptName: sdfBboxMax
   ScriptTypes:
     "":
       {}
@@ -8701,12 +8489,16 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: ":أكمل الجملة التالية، حزّر"
+  Text: |-
+    أنا متجرٌ بلا جدران،
+    عطوري ومكياجي نايس بأجمل الألوان،
+    أصلُكِ سريعًا أينما كان،
+    فما أنا؟ 🤔
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 17
+  FontSize: 12
   Font: !<reference> a4e0c20e-3ab5-4b91-9f07-5696457a7a21
   LayoutRect:
     left: -7.500000
@@ -9356,10 +9148,10 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -0.689247
-    bottom: -0.783330
-    right: 0.707972
-    top: 0.842400
+    left: -0.961571
+    bottom: -0.783329
+    right: 0.965963
+    top: 0.748945
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -9436,9 +9228,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: |2
-     فزّر
-
+  Text: Nice One
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9603,9 +9393,9 @@
   Enabled: true
   Layers: 16
   LocalTransform:
-    position: {x: 0.000001, y: 0.000000, z: -0.000001}
+    position: {x: 0.000000, y: 0.200000, z: 0.000000}
     rotation: {x: -90.000000, y: 90.000000, z: 180.000000}
-    scale: {x: 0.980490, y: 1.000000, z: 1.000000}
+    scale: {x: 0.980490, y: 1.000000, z: 0.990000}
     hasSegmentScaleCompensation: false
   Children:
     []
@@ -9900,7 +9690,7 @@
   PrefabRemaps:
     []
   Name: Frame
-  Enabled: true
+  Enabled: false
   Layers: 1048576
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -9917,7 +9707,7 @@
     []
   Name: VFX Component
   Enabled: true
-  RenderOrder: 100
+  RenderOrder: 113
   StretchMode: Stretch
   VerticalAlignment: Center
   HorizontalAlignment: Center
@@ -10119,7 +9909,7 @@
     []
   Name: VFX Component
   Enabled: true
-  RenderOrder: 100
+  RenderOrder: 114
   StretchMode: Stretch
   VerticalAlignment: Center
   HorizontalAlignment: Center
@@ -10725,21 +10515,6 @@
     []
   Components:
     - !<own> 5cbc9b91-7e12-4890-aa6c-d6a3333b9b8e
-- !<SceneObject/b78a24ff-9580-4385-a1c3-a6121e419134>
-  PrefabRemaps:
-    []
-  Name: VFX SDF Glitter
-  Enabled: true
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 7d76e117-ff15-4fbd-8dd8-ab33dbfa8c6d
 - !<SceneObject/b7a29916-eb32-4bf4-9c0d-c1af187e4fd9>
   PrefabRemaps:
     []
@@ -10972,7 +10747,7 @@
       teamLogo: !<reference.Texture> 171873ba-eaa9-40e4-8c16-2a22739d4606
       logoPosition: 2
       logoAlpha: !<float> 1.000000
-      logoSize: 0.700000
+      logoSize: 0.550000
       logoOffsetX: !<float> 0.000000
       logoOffsetY: 0.080000
       advanced: false
@@ -11241,21 +11016,6 @@
   Enabled: true
   ScreenRegionType: FullFrame
   ResizeWithKeyboard: false
-- !<SceneObject/c49791e2-13b3-4836-8daa-97025def4738>
-  PrefabRemaps:
-    []
-  Name: Glass Back
-  Enabled: false
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> e19096b7-d568-421d-b082-121355063034
 - !<SceneObject/c4bcd01c-5475-4ec3-a627-3e59d800c9b4>
   PrefabRemaps:
     []
@@ -11369,21 +11129,6 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/c58506e3-337f-4910-8d74-d1c74388d3d0>
-  PrefabRemaps:
-    []
-  Name: VFX SDF Glitter 1
-  Enabled: false
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 88c0d812-6f45-4966-acda-439c94bcf616
 - !<ScriptComponent/c5873915-e223-4a0f-823f-acd3a1f00c32>
   PrefabRemaps:
     []
@@ -11431,7 +11176,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: سناب
+  Text: Amazon
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11832,10 +11577,10 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -0.689247
+    left: -0.961571
     bottom: -0.783330
-    right: 0.707972
-    top: 0.842400
+    right: 0.965963
+    top: 0.762028
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -12450,34 +12195,6 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/df3c95f6-5849-46ea-a61d-1990c8b8f090>
-  PrefabRemaps:
-    - 15e3afe8-948a-48b3-84c6-4c8c386289f7: e3b7c173-6a41-4e71-81bd-cad4688e42fc
-    - 54a78521-52d1-4c0e-8fc2-aa0ddec605ba: 59912414-e3bc-4472-b831-e307df38a37d
-    - 6e24f72f-07de-4c73-bc91-1b06bbf0c2f7: 68e54333-7025-48e3-aa6e-ac90695c5ab5
-    - 7012c033-801a-49ae-99f8-cde3e3575718: 4f981363-8575-4148-b82a-2678a0f02a8f
-    - 7d76e117-ff15-4fbd-8dd8-ab33dbfa8c6d: ca39fa33-d47e-400a-83ab-4bc9e6d54899
-    - 8c404883-5e70-4df6-ab07-47da473f3638: 7275472f-ef70-4d07-9c84-9e664fae4a52
-    - b78a24ff-9580-4385-a1c3-a6121e419134: 966157ce-4677-4ab6-af31-b0d6c466a958
-    - c49791e2-13b3-4836-8daa-97025def4738: e58ab1e9-e94b-4cc6-bb81-17d480d27e99
-    - df3c95f6-5849-46ea-a61d-1990c8b8f090: 4131812c-0935-44b4-824b-346ea24546b0
-    - e19096b7-d568-421d-b082-121355063034: 155d2c41-9bda-4e48-9d79-adfcf3b59147
-  Name: SDF_Volumetric_Glitter_VFX__PLACE_IN_OBJECTS_PANEL
-  Enabled: false
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.730507, z: -27.085535}
-    rotation: {x: -96.905991, y: -4.301800, z: 168.443054}
-    scale: {x: 11.000000, y: 10.999999, z: 10.999998}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 54a78521-52d1-4c0e-8fc2-aa0ddec605ba
-    - !<own> c49791e2-13b3-4836-8daa-97025def4738
-    - !<own> b78a24ff-9580-4385-a1c3-a6121e419134
-    - !<own> c58506e3-337f-4910-8d74-d1c74388d3d0
-    - !<own> 15e3afe8-948a-48b3-84c6-4c8c386289f7
-  Components:
-    - !<own> 836c2975-eb53-4e53-986e-8faeec720f6e
 - !<PostEffectVisual/df61eaf4-8801-4e53-a8b7-bd419df2b2a2>
   PrefabRemaps:
     []
@@ -12528,7 +12245,7 @@
   PrefabRemaps:
     []
   Name: frame_vfx
-  Enabled: false
+  Enabled: true
   Layers: 1048576
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: -40.000000}
@@ -12570,26 +12287,6 @@
     - !<own> 371e7683-96ff-48d5-97b7-86582e229254
   Components:
     - !<own> 3529018b-5df4-4e38-8eeb-a0cd0ec32667
-- !<RenderMeshVisual/e19096b7-d568-421d-b082-121355063034>
-  PrefabRemaps:
-    []
-  Name: Render Mesh Visual
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> ed297806-4aef-4192-894e-62d565ba58c7
-  Mesh: !<reference> f7974e62-e50c-43de-a87e-c48776b4f036
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<SceneObject/e2f81cd6-2453-4975-a993-e548b492ba0b>
   PrefabRemaps:
     []
@@ -12699,9 +12396,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: |
-    سناب
-
+  Text: Amazon
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13611,12 +13306,16 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: ":أكمل الجملة التالية، حزّر"
+  Text: |-
+    أنا متجرٌ بلا جدران،
+    عطوري ومكياجي نايس بأجمل الألوان،
+    أصلُكِ سريعًا أينما كان،
+    فما أنا؟ 🤔
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 17
+  FontSize: 12
   Font: !<reference> a4e0c20e-3ab5-4b91-9f07-5696457a7a21
   LayoutRect:
     left: -7.500000
@@ -14636,9 +14335,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: |2
-     فزّر
-
+  Text: Nice One
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
