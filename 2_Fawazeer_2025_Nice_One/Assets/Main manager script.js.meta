@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/5aa851e2-8f58-4daa-a2ac-2b689c0701ba>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e3aed315-e883-4dab-a081-b8345a2bc7fd
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e3aed315-e883-4dab-a081-b8345a2bc7fd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b624f3e0-961e-48c1-999e-c1397a55585f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b624f3e0-961e-48c1-999e-c1397a55585f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f3cc040a-b244-4929-94cf-73ac16456fd2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    defaultState: false
+    delayDressToRiddle: false
+    delayGenderToDress: false
+    delayLogoToGender: false
+    dressStateObject: false
+    genderStateObject: false
+    logoStateObject: false
+    riddleStateObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - defaultState: 0
+      delayLogoToGender: !<float> 1.000000
+      delayGenderToDress: !<float> 1.000000
+      delayDressToRiddle: !<float> 2.000000
+      logoStateObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      genderStateObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dressStateObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      riddleStateObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      logoState: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      genderState: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      dressState: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      riddleState: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      startState: 0
+      stateTransitionDelay: !<float> 1.000000
+      makeupObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

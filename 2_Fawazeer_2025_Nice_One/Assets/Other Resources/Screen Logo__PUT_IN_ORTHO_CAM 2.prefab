@@ -1,0 +1,101 @@
+- !<ObjectPrefab/7762ea6b-5f36-4541-9f12-18017dd272b8>
+  PackagePath: ""
+  objects:
+    - !<own> 9e5ea27a-539b-4483-9d76-2dc74dd558ad
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/49074484-043e-4a8b-90b4-e7c684992570>
+  PrefabRemaps:
+    []
+  Name: ScreenLogoController
+  Enabled: true
+  ScriptAsset: !<reference> 1fdc7622-90f7-42fb-8484-477e5c751fad
+  ScriptInputsDefault:
+    logoSize: true
+    logoOffsetX: true
+    logoOffsetY: true
+    advanced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      teamLogo: !<reference.Texture> d30b4401-7456-4d74-91b9-1aa4f257faf9
+      logoPosition: 0
+      logoAlpha: !<float> 1.000000
+      logoSize: 0.300000
+      logoOffsetX: !<float> 0.000000
+      logoOffsetY: !<float> 0.000000
+      advanced: false
+      screenLogo: !<reference.Image> 9931fcee-f195-45fb-9024-3cf92a6454d1
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenTransform/56ce567f-84d0-4d7d-bd46-bd9b8015b511>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<Image/9931fcee-f195-45fb-9024-3cf92a6454d1>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc004ea3-dcd2-44e3-941d-4b2e1769cecb
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/9e5ea27a-539b-4483-9d76-2dc74dd558ad>
+  PrefabRemaps:
+    []
+  Name: Screen Logo__PUT_IN_ORTHO_CAM
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 56ce567f-84d0-4d7d-bd46-bd9b8015b511
+    - !<own> 9931fcee-f195-45fb-9024-3cf92a6454d1
+    - !<own> 49074484-043e-4a8b-90b4-e7c684992570

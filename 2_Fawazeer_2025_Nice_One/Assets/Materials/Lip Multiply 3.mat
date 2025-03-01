@@ -1,0 +1,133 @@
+- !<Material/543df83b-a6a1-4a99-b08f-39ef77401080>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 1072c914-58f8-41e3-84f7-2e88e2f997e3
+- !<PassInfo/1072c914-58f8-41e3-84f7-2e88e2f997e3>
+  CachedProperties:
+    []
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - Tweak_N28
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Value_N002:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value_N013:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value_N030:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value_N054:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value_N061:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value_N074:
+      typeIdx: 1
+      value: 0.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N27:
+      typeIdx: 1
+      value: 0.450000
+    baseTexture:
+      typeIdx: 9
+      value:
+        id: bc3ef765-4bc0-40b6-ba37-1063ab115890
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    blushColor:
+      typeIdx: 4
+      value: {x: 0.847898, y: 0.192676, z: 0.147036}
+    colorEyelashes:
+      typeIdx: 4
+      value: {x: 0.124727, y: 0.090242, z: 0.056748}
+    eyelashesAlpha:
+      typeIdx: 1
+      value: 0.690000
+    eyeshadowAlphaA:
+      typeIdx: 1
+      value: 0.450000
+    eyeshadowAlphaB:
+      typeIdx: 1
+      value: 0.450000
+    eyeshadowColorA:
+      typeIdx: 4
+      value: {x: 0.942840, y: 0.627344, z: 0.587640}
+    eyeshadowColorB:
+      typeIdx: 4
+      value: {x: 0.975479, y: 0.771878, z: 0.722637}
+    lipsColor:
+      typeIdx: 4
+      value: {x: 0.806943, y: 0.438834, z: 0.491920}
+    lipsColorAlpha:
+      typeIdx: 1
+      value: 0.560000
+    lipsColorOpacityTex:
+      typeIdx: 9
+      value:
+        id: 88b1115f-71aa-4995-af10-1beb656e0661
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    lipsColorOpacityTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    lipsColorOpacityTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    lipsColorOpacityTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    lipsColorOpacityTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    lipsHighlightAlpha:
+      typeIdx: 1
+      value: 0.550000
+    lipsHighlightColor:
+      typeIdx: 4
+      value: {x: 1.000000, y: 0.836347, z: 0.871611}
+  Pass: !<reference> be9c3795-bda7-4334-8e60-82b21296618a

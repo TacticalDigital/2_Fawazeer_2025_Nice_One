@@ -1,0 +1,125 @@
+- !<AssetImportMetadata/b44d7c1e-b2ff-4967-9c30-a819ff9067ee>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8d86c35f-a839-4ad9-bc6d-8036b79bb008
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8d86c35f-a839-4ad9-bc6d-8036b79bb008
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> e67a1a9e-793a-4b59-9a87-26eada07cafc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/08e279db-d192-479f-8aa0-69242052977a>
+  PrefabRemaps:
+    []
+  Name: drop
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 93.794174, z: -155.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 2.951174, y: 2.951173, z: 2.951173}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 34a4f1cb-ed55-4ca4-b737-6fc926dd29c4
+    - !<own> 8c74b7a8-391d-49c3-a64c-6499bea349a4
+    - !<own> 35c0c9f1-6ad6-4fb3-98b9-670aa942d030
+- !<ObjectPrefab/2383be5d-50f9-4e53-98ae-04f84b299081>
+  PackagePath: Prefabs/drop
+  objects:
+    - !<own> 08e279db-d192-479f-8aa0-69242052977a
+  LazyLoading: true
+  RetainAssets: true
+- !<RenderMeshVisual/34a4f1cb-ed55-4ca4-b737-6fc926dd29c4>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 47
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 994e3eda-220c-4bd8-ac94-e1241c85396c
+  Mesh: !<reference> 262d1c93-3c85-4922-8d3e-ad7452ce410f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/35c0c9f1-6ad6-4fb3-98b9-670aa942d030>
+  PrefabRemaps:
+    []
+  Name: Drop
+  Enabled: true
+  ScriptAsset: !<reference> 7e8cca21-3715-49bf-8e0e-119fce0da587
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/8c74b7a8-391d-49c3-a64c-6499bea349a4>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> 32458aa3-c052-41eb-a18b-d189dd4f8d8a
+  ScriptInputsDefault:
+    loopType: true
+    type: true
+    start: true
+    end: true
+    from: true
+    to: true
+    additive: true
+    delay: true
+    isLocal: true
+    easingFunction: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 08e279db-d192-479f-8aa0-69242052977a
+      tweenName: Drop
+      playAutomatically: false
+      loopType: 0
+      type: 0
+      movementType: 3
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: -400.000000, z: 0.000000}
+      additive: false
+      time: !<float> 8.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Quadratic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/e67a1a9e-793a-4b59-9a87-26eada07cafc>
+  SourceRemaps:
+    - 3ba4f38c-0da6-409d-85a2-271cc1390812: 34a4f1cb-ed55-4ca4-b737-6fc926dd29c4
+    - 4a23a62a-c13f-483c-9441-f7c11f847e4e: 35c0c9f1-6ad6-4fb3-98b9-670aa942d030
+    - 600a648e-f6a3-4184-b9c1-081ba1e38124: 08e279db-d192-479f-8aa0-69242052977a
+    - 8d86c35f-a839-4ad9-bc6d-8036b79bb008: 2383be5d-50f9-4e53-98ae-04f84b299081
+    - fc6a309f-3502-40fa-bc1a-e92558675064: 8c74b7a8-391d-49c3-a64c-6499bea349a4
+  SourceState: !<own> 2383be5d-50f9-4e53-98ae-04f84b299081

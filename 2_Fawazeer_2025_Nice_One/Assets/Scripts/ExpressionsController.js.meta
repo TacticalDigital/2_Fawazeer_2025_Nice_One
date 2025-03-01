@@ -1,0 +1,362 @@
+- !<AssetImportMetadata/6fed3413-4a7c-4cd9-af34-0171b095a9ba>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 67a3a733-76fe-4f39-9f0b-d5f2bf88d70a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 67a3a733-76fe-4f39-9f0b-d5f2bf88d70a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> cbbfc055-99a1-45c5-8ddb-01170c298f18
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ScriptAssetData/cbbfc055-99a1-45c5-8ddb-01170c298f18>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e3c08470-b905-45f6-bb1b-4c479ac30b37
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    Brows: false
+    BrowsDownLeft: false
+    BrowsDownLeftRename: false
+    BrowsDownLeftScale: false
+    BrowsDownRight: false
+    BrowsDownRightRename: false
+    BrowsDownRightScale: false
+    BrowsUpCenter: false
+    BrowsUpCenterRename: false
+    BrowsUpCenterScale: false
+    BrowsUpLeft: false
+    BrowsUpLeftRename: false
+    BrowsUpLeftScale: false
+    BrowsUpRight: false
+    BrowsUpRightRename: false
+    BrowsUpRightScale: false
+    CheekSquintLeft: false
+    CheekSquintLeftRename: false
+    CheekSquintLeftScale: false
+    CheekSquintRight: false
+    CheekSquintRightRename: false
+    CheekSquintRightScale: false
+    Cheeks: false
+    EyeBlinkLeft: false
+    EyeBlinkLeftRename: false
+    EyeBlinkLeftScale: false
+    EyeBlinkRight: false
+    EyeBlinkRightRename: false
+    EyeBlinkRightScale: false
+    EyeDownLeft: false
+    EyeDownLeftRename: false
+    EyeDownLeftScale: false
+    EyeDownRight: false
+    EyeDownRightRename: false
+    EyeDownRightScale: false
+    EyeInLeft: false
+    EyeInLeftRename: false
+    EyeInLeftScale: false
+    EyeInRight: false
+    EyeInRightRename: false
+    EyeInRightScale: false
+    EyeOpenLeft: false
+    EyeOpenLeftRename: false
+    EyeOpenLeftScale: false
+    EyeOpenRight: false
+    EyeOpenRightRename: false
+    EyeOpenRightScale: false
+    EyeOutLeft: false
+    EyeOutLeftRename: false
+    EyeOutLeftScale: false
+    EyeOutRight: false
+    EyeOutRightRename: false
+    EyeOutRightScale: false
+    EyeSquintLeft: false
+    EyeSquintLeftRename: false
+    EyeSquintLeftScale: false
+    EyeSquintRight: false
+    EyeSquintRightRename: false
+    EyeSquintRightScale: false
+    EyeUpLeft: false
+    EyeUpLeftRename: false
+    EyeUpLeftScale: false
+    EyeUpRight: false
+    EyeUpRightRename: false
+    EyeUpRightScale: false
+    Eyes: false
+    Face: false
+    Jaw: false
+    JawForward: false
+    JawForwardRename: false
+    JawForwardScale: false
+    JawLeft: false
+    JawLeftRename: false
+    JawLeftScale: false
+    JawOpen: false
+    JawOpenRename: false
+    JawOpenScale: false
+    JawRight: false
+    JawRightRename: false
+    JawRightScale: false
+    Lips: false
+    LipsFunnel: false
+    LipsFunnelRename: false
+    LipsFunnelScale: false
+    LipsPucker: false
+    LipsPuckerRename: false
+    LipsPuckerScale: false
+    LowerLipClose: false
+    LowerLipCloseRename: false
+    LowerLipCloseScale: false
+    LowerLipDownLeft: false
+    LowerLipDownLeftRename: false
+    LowerLipDownLeftScale: false
+    LowerLipDownRight: false
+    LowerLipDownRightRename: false
+    LowerLipDownRightScale: false
+    LowerLipRaise: false
+    LowerLipRaiseRename: false
+    LowerLipRaiseScale: false
+    Mouth: false
+    MouthClose: false
+    MouthCloseRename: false
+    MouthCloseScale: false
+    MouthDimpleLeft: false
+    MouthDimpleLeftRename: false
+    MouthDimpleLeftScale: false
+    MouthDimpleRight: false
+    MouthDimpleRightRename: false
+    MouthDimpleRightScale: false
+    MouthFrownLeft: false
+    MouthFrownLeftRename: false
+    MouthFrownLeftScale: false
+    MouthFrownRight: false
+    MouthFrownRightRename: false
+    MouthFrownRightScale: false
+    MouthLeft: false
+    MouthLeftRename: false
+    MouthLeftScale: false
+    MouthRight: false
+    MouthRightRename: false
+    MouthRightScale: false
+    MouthSmileLeft: false
+    MouthSmileLeftRename: false
+    MouthSmileLeftScale: false
+    MouthSmileRight: false
+    MouthSmileRightRename: false
+    MouthSmileRightScale: false
+    MouthStretchLeft: false
+    MouthStretchLeftRename: false
+    MouthStretchLeftScale: false
+    MouthStretchRight: false
+    MouthStretchRightRename: false
+    MouthStretchRightScale: false
+    MouthUpLeft: false
+    MouthUpLeftRename: false
+    MouthUpLeftScale: false
+    MouthUpRight: false
+    MouthUpRightRename: false
+    MouthUpRightScale: false
+    Puff: false
+    PuffRename: false
+    PuffScale: false
+    SneerLeft: false
+    SneerLeftRename: false
+    SneerLeftScale: false
+    SneerRight: false
+    SneerRightRename: false
+    SneerRightScale: false
+    UpperLipClose: false
+    UpperLipCloseRename: false
+    UpperLipCloseScale: false
+    UpperLipRaise: false
+    UpperLipRaiseRename: false
+    UpperLipRaiseScale: false
+    UpperLipUpLeft: false
+    UpperLipUpLeftRename: false
+    UpperLipUpLeftScale: false
+    UpperLipUpRight: false
+    UpperLipUpRightRename: false
+    UpperLipUpRightScale: false
+    advanced: false
+    blendShapesComponent: false
+    customizeExpressions: false
+    faceMesh: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - blendShapesComponent: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      customizeExpressions: false
+      Brows: false
+      BrowsDownLeft: false
+      BrowsDownLeftScale: !<float> 1.000000
+      BrowsDownLeftRename: BrowsDownLeft
+      BrowsDownRight: false
+      BrowsDownRightScale: !<float> 1.000000
+      BrowsDownRightRename: BrowsDownRight
+      BrowsUpCenter: false
+      BrowsUpCenterScale: !<float> 1.000000
+      BrowsUpCenterRename: BrowsUpCenter
+      BrowsUpLeft: false
+      BrowsUpLeftScale: !<float> 1.000000
+      BrowsUpLeftRename: BrowsUpLeft
+      BrowsUpRight: false
+      BrowsUpRightScale: !<float> 1.000000
+      BrowsUpRightRename: BrowsUpRight
+      Cheeks: false
+      CheekSquintLeft: false
+      CheekSquintLeftScale: !<float> 1.000000
+      CheekSquintLeftRename: CheekSquintLeft
+      CheekSquintRight: false
+      CheekSquintRightScale: !<float> 1.000000
+      CheekSquintRightRename: CheekSquintRight
+      Eyes: false
+      EyeBlinkLeft: false
+      EyeBlinkLeftScale: !<float> 1.000000
+      EyeBlinkLeftRename: EyeBlinkLeft
+      EyeBlinkRight: false
+      EyeBlinkRightScale: !<float> 1.000000
+      EyeBlinkRightRename: EyeBlinkRight
+      EyeDownLeft: false
+      EyeDownLeftScale: !<float> 1.000000
+      EyeDownLeftRename: EyeDownLeft
+      EyeDownRight: false
+      EyeDownRightScale: !<float> 1.000000
+      EyeDownRightRename: EyeDownRight
+      EyeInLeft: false
+      EyeInLeftScale: !<float> 1.000000
+      EyeInLeftRename: EyeInLeft
+      EyeInRight: false
+      EyeInRightScale: !<float> 1.000000
+      EyeInRightRename: EyeInRight
+      EyeOpenLeft: false
+      EyeOpenLeftScale: !<float> 1.000000
+      EyeOpenLeftRename: EyeOpenLeft
+      EyeOpenRight: false
+      EyeOpenRightScale: !<float> 1.000000
+      EyeOpenRightRename: EyeOpenRight
+      EyeOutLeft: false
+      EyeOutLeftScale: !<float> 1.000000
+      EyeOutLeftRename: EyeOutLeft
+      EyeOutRight: false
+      EyeOutRightScale: !<float> 1.000000
+      EyeOutRightRename: EyeOutRight
+      EyeSquintLeft: false
+      EyeSquintLeftScale: !<float> 1.000000
+      EyeSquintLeftRename: EyeSquintLeft
+      EyeSquintRight: false
+      EyeSquintRightScale: !<float> 1.000000
+      EyeSquintRightRename: EyeSquintLeft
+      EyeUpLeft: false
+      EyeUpLeftScale: !<float> 1.000000
+      EyeUpLeftRename: EyeUpLeft
+      EyeUpRight: false
+      EyeUpRightScale: !<float> 1.000000
+      EyeUpRightRename: EyeUpRight
+      Jaw: false
+      JawForward: false
+      JawForwardScale: !<float> 1.000000
+      JawForwardRename: JawForward
+      JawLeft: false
+      JawLeftScale: !<float> 1.000000
+      JawLeftRename: JawLeft
+      JawRight: false
+      JawRightScale: !<float> 1.000000
+      JawRightRename: JawRight
+      JawOpen: false
+      JawOpenScale: !<float> 1.000000
+      JawOpenRename: JawOpen
+      Lips: false
+      LipsFunnel: false
+      LipsFunnelScale: !<float> 1.000000
+      LipsFunnelRename: LipsFunnel
+      LipsPucker: false
+      LipsPuckerScale: !<float> 1.000000
+      LipsPuckerRename: LipsPucker
+      LowerLipClose: false
+      LowerLipCloseScale: !<float> 1.000000
+      LowerLipCloseRename: LowerLipClose
+      LowerLipDownLeft: false
+      LowerLipDownLeftScale: !<float> 1.000000
+      LowerLipDownLeftRename: LowerLipDownLeft
+      LowerLipDownRight: false
+      LowerLipDownRightScale: !<float> 1.000000
+      LowerLipDownRightRename: LowerLipDownRight
+      LowerLipRaise: false
+      LowerLipRaiseScale: !<float> 1.000000
+      LowerLipRaiseRename: LowerLipRaise
+      UpperLipClose: false
+      UpperLipCloseScale: !<float> 1.000000
+      UpperLipCloseRename: UpperLipClose
+      UpperLipRaise: false
+      UpperLipRaiseScale: !<float> 1.000000
+      UpperLipRaiseRename: UpperLipRaise
+      UpperLipUpLeft: false
+      UpperLipUpLeftScale: !<float> 1.000000
+      UpperLipUpLeftRename: UpperLipUpLeft
+      UpperLipUpRight: false
+      UpperLipUpRightScale: !<float> 1.000000
+      UpperLipUpRightRename: UpperLipUpRight
+      Mouth: false
+      MouthClose: false
+      MouthCloseScale: !<float> 1.000000
+      MouthCloseRename: MouthClose
+      MouthDimpleLeft: false
+      MouthDimpleLeftScale: !<float> 1.000000
+      MouthDimpleLeftRename: MouthDimpleLeft
+      MouthDimpleRight: false
+      MouthDimpleRightScale: !<float> 1.000000
+      MouthDimpleRightRename: MouthDimpleRight
+      MouthFrownLeft: false
+      MouthFrownLeftScale: !<float> 1.000000
+      MouthFrownLeftRename: MouthFrownLeft
+      MouthFrownRight: false
+      MouthFrownRightScale: !<float> 1.000000
+      MouthFrownRightRename: MouthFrownRight
+      MouthLeft: false
+      MouthLeftScale: !<float> 1.000000
+      MouthLeftRename: MouthLeft
+      MouthRight: false
+      MouthRightScale: !<float> 1.000000
+      MouthRightRename: MouthRight
+      MouthSmileLeft: false
+      MouthSmileLeftScale: !<float> 1.000000
+      MouthSmileLeftRename: MouthSmileLeft
+      MouthSmileRight: false
+      MouthSmileRightScale: !<float> 1.000000
+      MouthSmileRightRename: MouthSmileRight
+      MouthStretchLeft: false
+      MouthStretchLeftScale: !<float> 1.000000
+      MouthStretchLeftRename: MouthStretchLeft
+      MouthStretchRight: false
+      MouthStretchRightScale: !<float> 1.000000
+      MouthStretchRightRename: MouthStretchRight
+      MouthUpLeft: false
+      MouthUpLeftScale: !<float> 1.000000
+      MouthUpLeftRename: MouthUpLeft
+      MouthUpRight: false
+      MouthUpRightScale: !<float> 1.000000
+      MouthUpRightRename: MouthUpRight
+      Face: false
+      Puff: false
+      PuffScale: !<float> 1.000000
+      PuffRename: Puff
+      SneerLeft: false
+      SneerLeftScale: !<float> 1.000000
+      SneerLeftRename: SneerLeft
+      SneerRight: false
+      SneerRightScale: !<float> 1.000000
+      SneerRightRename: SneerRight
+      advanced: false
+      faceMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

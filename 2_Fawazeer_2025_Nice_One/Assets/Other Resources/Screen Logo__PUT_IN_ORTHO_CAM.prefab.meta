@@ -1,0 +1,125 @@
+- !<AssetImportMetadata/f90562f0-efae-4763-a0f5-bae16d5c1658>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 0824113e-c19b-483a-9ed2-6cc0913cc7e7
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 0824113e-c19b-483a-9ed2-6cc0913cc7e7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 872d23c8-d430-43a5-bfb4-6cbbfb9cf662
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/01a8d663-1c65-4724-b7a4-0c0adb29ff11>
+  PrefabRemaps:
+    []
+  Name: ScreenLogoController
+  Enabled: true
+  ScriptAsset: !<reference> 1fdc7622-90f7-42fb-8484-477e5c751fad
+  ScriptInputsDefault:
+    logoSize: true
+    logoOffsetX: true
+    logoOffsetY: true
+    advanced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      teamLogo: !<reference.Texture> d30b4401-7456-4d74-91b9-1aa4f257faf9
+      logoPosition: 0
+      logoAlpha: !<float> 1.000000
+      logoSize: 0.300000
+      logoOffsetX: !<float> 0.000000
+      logoOffsetY: !<float> 0.000000
+      advanced: false
+      screenLogo: !<reference.Image> 73ba450c-d0bd-4d56-820d-94730c71a86b
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/6f80090e-06e0-4015-9fc8-f8a6d5db623e>
+  PackagePath: ""
+  objects:
+    - !<own> df5b387a-af47-4f57-89fb-83fcb2b133c7
+  LazyLoading: false
+  RetainAssets: true
+- !<Image/73ba450c-d0bd-4d56-820d-94730c71a86b>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc004ea3-dcd2-44e3-941d-4b2e1769cecb
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/8494429a-36de-4cb4-a5b6-df7ba4d92d90>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ObjectPrefabAssetData/872d23c8-d430-43a5-bfb4-6cbbfb9cf662>
+  SourceRemaps:
+    - 0824113e-c19b-483a-9ed2-6cc0913cc7e7: 6f80090e-06e0-4015-9fc8-f8a6d5db623e
+    - 9c5b6623-32b2-4751-9321-34d1620be6c2: 01a8d663-1c65-4724-b7a4-0c0adb29ff11
+    - d38819de-e4d7-46d0-9bc8-4da300321053: 73ba450c-d0bd-4d56-820d-94730c71a86b
+    - e32d0aae-143d-468c-9fea-e700cb5fe226: 8494429a-36de-4cb4-a5b6-df7ba4d92d90
+    - f9a920b3-ed90-4764-9d81-46df880b8265: df5b387a-af47-4f57-89fb-83fcb2b133c7
+  SourceState: !<own> 6f80090e-06e0-4015-9fc8-f8a6d5db623e
+- !<SceneObject/df5b387a-af47-4f57-89fb-83fcb2b133c7>
+  PrefabRemaps:
+    []
+  Name: Screen Logo__PUT_IN_ORTHO_CAM
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8494429a-36de-4cb4-a5b6-df7ba4d92d90
+    - !<own> 73ba450c-d0bd-4d56-820d-94730c71a86b
+    - !<own> 01a8d663-1c65-4724-b7a4-0c0adb29ff11

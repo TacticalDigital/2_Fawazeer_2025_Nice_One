@@ -1,0 +1,100 @@
+- !<Material/baa16a35-2475-4742-acd3-de2ee2021597>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 871b73fd-d2e9-42d0-957f-20cb8ed060f9
+- !<PassInfo/871b73fd-d2e9-42d0-957f-20cb8ed060f9>
+  CachedProperties:
+    []
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Add
+  Properties:
+    Port_AO_N014:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Albedo_N014:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Center_N007:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Input1_N008:
+      typeIdx: 1
+      value: 0.900000
+    Port_Input1_N009:
+      typeIdx: 1
+      value: 1.100000
+    Port_Input1_N010:
+      typeIdx: 3
+      value: {x: 232.000000, y: 145.897003}
+    Port_Input1_N011:
+      typeIdx: 3
+      value: {x: 735.000000, y: 148.000000}
+    Port_Input1_N018:
+      typeIdx: 3
+      value: {x: 0.010000, y: 0.010000}
+    Port_Input1_N020:
+      typeIdx: 3
+      value: {x: 0.000000, y: -0.010000}
+    Port_Rotation_N007:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value4_N023:
+      typeIdx: 1
+      value: 0.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N16:
+      typeIdx: 1
+      value: 2.750000
+    Tweak_N2:
+      typeIdx: 1
+      value: 2000.000000
+    Tweak_N22:
+      typeIdx: 1
+      value: 5.930000
+    Tweak_N25:
+      typeIdx: 9
+      value:
+        id: af805886-c575-45f5-a22d-fd5f0da351a8
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    Tweak_N25BorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N25Dims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N25Transform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Tweak_N25UvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> 82a0b3e9-673d-47f1-afbb-a6429d36f26a

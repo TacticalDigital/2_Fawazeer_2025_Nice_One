@@ -1,0 +1,70 @@
+- !<AssetImportMetadata/ae3f9564-90fd-476c-857d-16931137c93e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> edf488de-36e4-486d-a076-2546b3b04017
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> edf488de-36e4-486d-a076-2546b3b04017
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 018af442-f5e2-4f5f-bb89-fe6ca97b7d02
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/018af442-f5e2-4f5f-bb89-fe6ca97b7d02>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f3cc040a-b244-4929-94cf-73ac16456fd2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    assetsDelay: false
+    delayToRiddle: false
+    disableObjects: false
+    dressScript: false
+    femaleGarmentsParent: false
+    femaleObjects: false
+    mainManager: false
+    maleGarmentsParent: false
+    maleObjects: false
+    universalObjects: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - mainManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      maleWearables: !<reference.SceneObject[]>
+        []
+      femaleWearables: !<reference.SceneObject[]>
+        []
+      universalObjects: !<reference.SceneObject[]>
+        []
+      maleGarmentsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      femaleGarmentsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      maleTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      femaleTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      assetsDelay: !<float> 1.000000
+      delayToRiddle: !<float> 2.000000
+      disableObjects: !<reference.SceneObject[]>
+        []
+      disableOnDressObjects: !<reference.SceneObject[]>
+        []
+      immediateDressObjects: !<reference.SceneObject[]>
+        []
+      dressScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      photoScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      maleObjects: !<reference.SceneObject[]>
+        []
+      femaleObjects: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}

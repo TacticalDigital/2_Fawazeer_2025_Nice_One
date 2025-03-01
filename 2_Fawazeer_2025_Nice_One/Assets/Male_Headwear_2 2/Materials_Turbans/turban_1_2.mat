@@ -1,0 +1,159 @@
+- !<Material/ffdad319-b84d-4963-8f63-e3e88074bfea>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> f6f539f7-0bbc-459a-b7ce-c07f7c13c04b
+- !<PassInfo/f6f539f7-0bbc-459a-b7ce-c07f7c13c04b>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Import_N001:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Import_N022:
+        typeIdx: 1
+        value: -15.000000
+    - Port_Import_N024:
+        typeIdx: 1
+        value: 0.000000
+    - Port_LODValue_N019:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Normal_N023:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_UVCoord_N019:
+        typeIdx: 3
+        value: {x: 0.000000, y: 0.000000}
+    - Port_Value4_N030:
+        typeIdx: 1
+        value: 0.000000
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - Tweak_N11
+  BlendMode: Disabled
+  Properties:
+    Port_AO_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Import_N026:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N025:
+      typeIdx: 1
+      value: 0.010000
+    Port_Input1_N029:
+      typeIdx: 1
+      value: 0.010000
+    Port_Opacity_N023:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N003:
+      typeIdx: 1
+      value: 180.000000
+    Port_RangeMaxB_N003:
+      typeIdx: 1
+      value: 0.500000
+    Port_RangeMinA_N003:
+      typeIdx: 1
+      value: -180.000000
+    Port_RangeMinB_N003:
+      typeIdx: 1
+      value: -0.500000
+    Port_SpecularAO_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N13:
+      typeIdx: 1
+      value: 5.000000
+    Tweak_N14:
+      typeIdx: 1
+      value: 1.000000
+    Tweak_N35:
+      typeIdx: 1
+      value: 1.200000
+    Tweak_N39:
+      typeIdx: 1
+      value: 1.420000
+    Tweak_N40:
+      typeIdx: 1
+      value: 0.710000
+    Tweak_N42:
+      typeIdx: 1
+      value: 1.000000
+    Tweak_N43:
+      typeIdx: 1
+      value: 1.000000
+    Tweak_N8:
+      typeIdx: 1
+      value: 0.000000
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexture:
+      typeIdx: 9
+      value:
+        id: a5d9997f-afa3-4931-8881-400fb415c921
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  Pass: !<reference> 9c30ec2e-60a7-47d6-80f9-9802850855c0

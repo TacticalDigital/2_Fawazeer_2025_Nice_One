@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/061ba6c3-c10d-4361-aee6-1f2eb5c79ac5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1f25717d-dc5b-442d-9c6c-12e82a4475c2
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1f25717d-dc5b-442d-9c6c-12e82a4475c2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1d2607fb-2657-4812-b472-f65d1c0cdb08
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1d2607fb-2657-4812-b472-f65d1c0cdb08>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f3cc040a-b244-4929-94cf-73ac16456fd2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    fadeDuration: false
+    genderButtons: false
+    hintTapGender: false
+    mainManager: false
+    makeupObj: false
+    mlObjs: false
+    tapObjects: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - genderButtons: !<reference.SceneObject[]>
+        []
+      hintTapGender: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mainManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      fadeDuration: 0.800000
+      genderText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      tapObjects: !<reference.SceneObject[]>
+        []
+      makeupObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mlObjs: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}

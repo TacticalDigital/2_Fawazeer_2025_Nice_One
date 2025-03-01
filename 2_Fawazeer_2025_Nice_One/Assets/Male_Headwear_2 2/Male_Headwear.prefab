@@ -1,0 +1,284 @@
+- !<ObjectPrefab/5f1e0104-4940-4db7-bd19-8f3e3c6ddfb5>
+  PackagePath: ""
+  objects:
+    - !<own> 196b31bb-2ea4-4c7b-a19c-02ebb6c7009e
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/0bd72762-9b6e-4a90-9779-3df9c0d6b478>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: -1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e0bb4779-4a2d-4411-bba5-545fc8ce26d5
+  Mesh: !<reference> 31e12eb9-2ca1-4e80-b798-f3074830576c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/15eb63d6-1168-4cfa-bea7-7b4fd3a6bfa9>
+  PrefabRemaps:
+    []
+  Name: Male_Headwear
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6624f883-72d9-4a41-919e-2139217e1b51
+- !<SceneObject/196b31bb-2ea4-4c7b-a19c-02ebb6c7009e>
+  PrefabRemaps:
+    []
+  Name: Male_Headwear
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 13.557465, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e773f048-274e-4de6-8c4c-abc347406134
+    - !<own> 31e6b52c-d4e9-47d0-9684-a3db373a0f99
+    - !<own> 514632c2-4074-4849-908b-cf7d2f0b6f0d
+    - !<own> 44750165-0c3a-4c5d-8abf-c1e7be37bf1c
+  Components:
+    []
+- !<SceneObject/287af368-a297-4044-b018-a565c245e8f8>
+  PrefabRemaps:
+    []
+  Name: Male_Headwear
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 98c0953a-eb81-497e-a93f-849b48d57c98
+- !<SceneObject/31e6b52c-d4e9-47d0-9684-a3db373a0f99>
+  PrefabRemaps:
+    []
+  Name: m_Turban_1_2
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6d1d360b-8956-4f87-81fe-19a09ab0d23a
+  Components:
+    []
+- !<SceneObject/44750165-0c3a-4c5d-8abf-c1e7be37bf1c>
+  PrefabRemaps:
+    []
+  Name: m_Turban_2_3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.493023}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b5408f04-ac15-40b5-8b31-8cdd680b91c0
+  Components:
+    []
+- !<SceneObject/514632c2-4074-4849-908b-cf7d2f0b6f0d>
+  PrefabRemaps:
+    []
+  Name: m_Turban_2_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.493023}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cba09728-bf6d-40ec-b513-f84e84546315
+  Components:
+    []
+- !<RenderMeshVisual/6624f883-72d9-4a41-919e-2139217e1b51>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: -1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1d7eb9a2-9f9c-438f-b51e-b69a8f55d705
+  Mesh: !<reference> 7efa5723-8b41-4211-8798-119d3932bb48
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6d1d360b-8956-4f87-81fe-19a09ab0d23a>
+  PrefabRemaps:
+    []
+  Name: m_Turban_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 287af368-a297-4044-b018-a565c245e8f8
+  Components:
+    []
+- !<RenderMeshVisual/98c0953a-eb81-497e-a93f-849b48d57c98>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: -1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ffdad319-b84d-4963-8f63-e3e88074bfea
+  Mesh: !<reference> 7efa5723-8b41-4211-8798-119d3932bb48
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b5408f04-ac15-40b5-8b31-8cdd680b91c0>
+  PrefabRemaps:
+    []
+  Name: turban_trellis_0217234413_texture
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -2.240854, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.125000, y: 0.125000, z: 0.125000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cc95ba57-3cad-42c4-a5ee-a9a5ce1f3191
+  Components:
+    []
+- !<SceneObject/cba09728-bf6d-40ec-b513-f84e84546315>
+  PrefabRemaps:
+    []
+  Name: turban_trellis_0217234413_texture
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -2.240854, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.125000, y: 0.125000, z: 0.125000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e138ce27-5dd6-4e2a-9bd4-342dda780de2
+  Components:
+    []
+- !<SceneObject/cc95ba57-3cad-42c4-a5ee-a9a5ce1f3191>
+  PrefabRemaps:
+    []
+  Name: geometry_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0bd72762-9b6e-4a90-9779-3df9c0d6b478
+- !<SceneObject/e138ce27-5dd6-4e2a-9bd4-342dda780de2>
+  PrefabRemaps:
+    []
+  Name: geometry_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e80829ca-27d1-465b-8320-12bc10f96b45
+- !<SceneObject/e6e8cfb2-d9f0-4543-920e-259e6bbc08f7>
+  PrefabRemaps:
+    []
+  Name: m_Turban_1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 15eb63d6-1168-4cfa-bea7-7b4fd3a6bfa9
+  Components:
+    []
+- !<SceneObject/e773f048-274e-4de6-8c4c-abc347406134>
+  PrefabRemaps:
+    []
+  Name: m_Turban_1_1
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e6e8cfb2-d9f0-4543-920e-259e6bbc08f7
+  Components:
+    []
+- !<RenderMeshVisual/e80829ca-27d1-465b-8320-12bc10f96b45>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: -1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7c398b79-c822-43a8-8e2b-1ddf721a619b
+  Mesh: !<reference> 31e12eb9-2ca1-4e80-b798-f3074830576c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

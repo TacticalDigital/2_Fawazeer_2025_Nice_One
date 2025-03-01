@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/7248f300-6a36-4b29-88f1-b920da7b5e4d>
+  ImportedAssetIds:
+    Texture: !<reference> 602afbcd-9f6d-484f-a421-e17447b1c57c
+  ImporterName: DeviceCameraTextureImporter
+  PrimaryAsset: !<reference> 602afbcd-9f6d-484f-a421-e17447b1c57c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

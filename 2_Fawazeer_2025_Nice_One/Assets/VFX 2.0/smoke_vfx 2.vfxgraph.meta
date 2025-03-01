@@ -1,0 +1,69 @@
+- !<AssetImportMetadata/1ce4ccf3-8e54-46ad-9bcf-ecf9c91154fb>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 9f86805c-d491-499f-b0d1-a286e7fd698f
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 9f86805c-d491-499f-b0d1-a286e7fd698f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> f1ca151c-e4d8-4454-b906-7d50fb0e336b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/f1ca151c-e4d8-4454-b906-7d50fb0e336b>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/0d3a01c4-0b86-4ea5-9499-772da06c1861>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        Tweak_N79:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.765637, z: 0.573892, w: 1.000000}
+        Tweak_N80:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.724788, z: 0.449577, w: 1.000000}
+        emit:
+          typeIdx: 1
+          value: 0.000000
+        push:
+          typeIdx: 1
+          value: 2.000000
+        force:
+          typeIdx: 1
+          value: 2.430000
+      RenderProperties:
+        Tweak_N29:
+          typeIdx: 9
+          value:
+            id: 329e90fa-9526-4004-9b31-e9918c96915a
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: Repeat
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        Tweak_N50:
+          typeIdx: 9
+          value:
+            id: 0e94f1be-b6f6-469f-968d-4c41bc095d1b
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: Repeat
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

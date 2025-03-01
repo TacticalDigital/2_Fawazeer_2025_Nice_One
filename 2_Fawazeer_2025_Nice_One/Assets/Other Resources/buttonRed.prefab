@@ -1,0 +1,34 @@
+- !<ObjectPrefab/266c9b2c-a1cd-4186-9cef-5b99b1bbc151>
+  PackagePath: ""
+  objects:
+    - !<own> d08469d6-1022-40d6-a40f-273f6e3728d8
+  LazyLoading: false
+  RetainAssets: true
+- !<VFXComponent/4bdcd2fe-b577-4b6f-b9fd-7c9d5faa7861>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 100
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> a4dd2427-063e-46ee-98b4-8d97b9a83d12
+- !<SceneObject/d08469d6-1022-40d6-a40f-273f6e3728d8>
+  PrefabRemaps:
+    []
+  Name: buttonRed
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: -15.000000, z: -60.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4bdcd2fe-b577-4b6f-b9fd-7c9d5faa7861

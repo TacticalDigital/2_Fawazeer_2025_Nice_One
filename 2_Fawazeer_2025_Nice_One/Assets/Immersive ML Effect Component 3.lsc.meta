@@ -1,0 +1,20 @@
+- !<AssetImportMetadata/be1694be-e1a4-436d-b3ad-355b0baad7f9>
+  ImportedAssetIds:
+    .hidden/graph_warp: !<reference> 5256ceea-6492-41a2-8b65-4ab94e9bfb5e
+    19740855-5262889-large: !<reference> 4285d7d3-f633-4ead-b88e-4ebda7c75cf7
+    graph_warp: !<reference> b0832f41-8dc8-43ec-8466-e8b82263f855
+    graph_warp|graph_warp|GraphPassInfo: !<reference> fc90e5fb-9282-43cf-be11-881a11f7752f
+    immersive_effect_component_plugin: !<reference> ed1fae24-8c9a-4cc7-934c-659ea44c3aff
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> ed1fae24-8c9a-4cc7-934c-659ea44c3aff
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

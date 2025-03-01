@@ -1,0 +1,70 @@
+- !<Material/938c6ed2-a98b-4e26-b243-0747dd705ceb>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> ae2f7161-0e2f-4529-bb56-c95a78ac501e
+- !<PassInfo/ae2f7161-0e2f-4529-bb56-c95a78ac501e>
+  CachedProperties:
+    []
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Multiply
+  Properties:
+    Port_Default_N007:
+      typeIdx: 1
+      value: 1.000000
+    Port_Default_N008:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N138:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N144:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N144:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N036:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N036:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value1_N007:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value1_N008:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    vigColor:
+      typeIdx: 4
+      value: {x: 0.151263, y: 0.000046, z: 0.185763}
+    vigFalloff:
+      typeIdx: 1
+      value: 1.000000
+    vigIntensity:
+      typeIdx: 1
+      value: 2.000000
+    vigOpacity:
+      typeIdx: 1
+      value: 0.300000
+    vigPosition:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    vigReverse:
+      typeIdx: 2
+      value: false
+  Pass: !<reference> ebd92878-7044-4529-a643-19c4a76ec0e2

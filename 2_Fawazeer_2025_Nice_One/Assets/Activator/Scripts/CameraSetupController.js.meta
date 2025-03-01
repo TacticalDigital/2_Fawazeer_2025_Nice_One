@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/a42d71eb-b53a-4c85-b818-6abe286090a5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b059bd4a-2f4b-4316-8565-04f3eb0e2ae1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b059bd4a-2f4b-4316-8565-04f3eb0e2ae1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 9958f3ae-f3f4-4b56-8270-953da77f01eb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/9958f3ae-f3f4-4b56-8270-953da77f01eb>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4dc18ec0-f211-41f1-9f32-ee37b7cf63df
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    Advanced: false
+    groundCamMat: false
+    groundCamRenderTarget: false
+    mesh: false
+    processCamMat: false
+    processCamRenderTarget: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - Advanced: false
+      processCamMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      groundCamMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      processCamRenderTarget: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      groundCamRenderTarget: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      mesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

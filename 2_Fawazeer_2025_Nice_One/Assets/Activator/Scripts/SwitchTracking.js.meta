@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/e8e7f7ee-11dc-49df-b443-57609cac7c6f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6adece93-cfad-47cf-9ed1-9f84b1725807
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6adece93-cfad-47cf-9ed1-9f84b1725807
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c3cbd415-87f8-4675-a049-f1b1bdbe6c35
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c3cbd415-87f8-4675-a049-f1b1bdbe6c35>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4dc18ec0-f211-41f1-9f32-ee37b7cf63df
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    Advanced: false
+    deviceTrackingComponent: false
+    objDisableOnFallback: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - deviceTrackingComponent: !<reference.DeviceTracking> 00000000-0000-0000-0000-000000000000
+      Advanced: false
+      objDisableOnFallback: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}

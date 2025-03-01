@@ -1,0 +1,59 @@
+- !<Material/27e939a1-bd6b-4f07-9b5e-42d3b7bfa550>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 7e9447a3-da62-4b9e-9efc-9a54a320999c
+- !<PassInfo/7e9447a3-da62-4b9e-9efc-9a54a320999c>
+  CachedProperties:
+    []
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - BLEND_MODE_SOFT_LIGHT
+    - ENABLE_BASE_TEX
+    - ENABLE_CUSTOM_BLEND
+    - NOMASK
+    - sc_BlendMode_Custom
+  BlendMode: SoftLight
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.050000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 15c5cc3e-7ba0-448f-a986-7b49d133709d
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  Pass: !<reference> f98666be-3a1f-44a3-8433-e4da1e976350
