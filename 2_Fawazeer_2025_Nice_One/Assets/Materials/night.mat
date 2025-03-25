@@ -4,51 +4,7 @@
     - !<own> b3ef637c-de59-47ff-927e-3bb84c3e24e4
 - !<PassInfo/b3ef637c-de59-47ff-927e-3bb84c3e24e4>
   CachedProperties:
-    - Port_Depth_N004:
-        typeIdx: 1
-        value: 1.000000
-    - Port_FinalColor1_N004:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - Port_FinalColor2_N004:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - Port_FinalColor3_N004:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - Port_GSplatPointSize_N004:
-        typeIdx: 1
-        value: 0.000000
-    - Port_Input0_N017:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - Port_Input1_N017:
-        typeIdx: 1
-        value: 1.000000
-    - Port_LODValue_N003:
-        typeIdx: 1
-        value: 0.000000
-    - Port_LODValue_N006:
-        typeIdx: 1
-        value: 0.000000
-    - Port_RayDirection_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 1.000000, z: 0.000000}
-    - Port_RayOrigin_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 0.000000, z: 0.000000}
-    - Port_WorldNormal_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 1.000000, z: 0.000000}
-    - Port_WorldPosition_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 0.000000, z: 0.000000}
-    - Port_WorldTangent_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 0.000000, z: 1.000000}
-    - Tweak_N19:
-        typeIdx: 1
-        value: 1.000000
+    []
   DepthWrite: false
   DepthTest: false
   DepthFunction: LessEqual
@@ -114,7 +70,7 @@
     screenTexture:
       typeIdx: 9
       value:
-        id: 0204baf6-cb43-401a-a3e4-3d29107a2865
+        id: bc3ef765-4bc0-40b6-ba37-1063ab115890
         sampler:
           filteringMode: Trilinear
           wrapModeU: ClampToEdge

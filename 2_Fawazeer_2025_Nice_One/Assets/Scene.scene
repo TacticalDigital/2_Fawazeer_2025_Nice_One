@@ -27,8 +27,8 @@
         color: 4
 
     HasOrtho: true
-  RenderOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
-  RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderOutput: !<reference> c3e352ce-28e4-48f9-a15e-08938133d3bc
+  RenderPreviewOutput: !<reference> e30b673d-2669-4759-822d-0f0056d43b07
   RenderOverlayOutput: !<reference> 00000000-0000-0000-0000-000000000000
   PhysicsRootWorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/008188cd-e34b-4cf1-b8ab-3a443a83a8ad>
@@ -590,7 +590,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 4ddd82f6-430e-47a3-9d16-8c36707d6c51
+    - !<reference> 4dcc4147-817a-4061-90eb-967dedf7b247
   Mesh: !<reference> 65e1e6ba-69e5-4035-b485-58d31ed917ce
   Skin: !<reference> 567b6997-b241-4c16-81d0-b97342853a84
   BlendShapesEnabled: true
@@ -811,7 +811,7 @@
     - fa29194d-0fe6-4015-8f03-76844bc07825: c91df487-3355-4da2-a56f-19dfc66f4e33
     - fc48b7c9-8443-45ad-b113-bb54e5a70e1c: 458b6b66-66c7-4d6e-8844-d3bfeac84286
     - fc7b6a1e-eeb4-43fb-948d-2f58cc4350dc: b3bdaa8d-a410-43b5-85b9-e1a86d57d018
-  Name: Riddle 2
+  Name: Riddle
   Enabled: false
   Layers: 1048576
   LocalTransform:
@@ -900,7 +900,7 @@
   PrefabRemaps:
     []
   Name: Scripts
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -1084,7 +1084,7 @@
   PrefabRemaps:
     []
   Name: Orthographic Camera
-  Enabled: true
+  Enabled: false
   Layers: 1048576
   LocalTransform:
     position: {x: -120.000000, y: 0.000000, z: 40.000000}
@@ -1170,7 +1170,7 @@
   PrefabRemaps:
     []
   Name: Beauty
-  Enabled: true
+  Enabled: false
   Layers: 32
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 40.000000}
@@ -1711,7 +1711,7 @@
   DeviceProperty: All
   AspectPreset: Custom
   OitLayers: NoOit
-  RenderTarget: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderTarget: !<reference> c3e352ce-28e4-48f9-a15e-08938133d3bc
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1785,7 +1785,7 @@
   PrefabRemaps:
     []
   Name: ML Orthographic Camera
-  Enabled: true
+  Enabled: false
   Layers: 2
   LocalTransform:
     position: {x: -120.000000, y: 0.000000, z: 40.000000}
@@ -1970,7 +1970,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 4ddd82f6-430e-47a3-9d16-8c36707d6c51
+    - !<reference> 484faf8c-b9bf-4468-b3c5-c2265ba28fbf
   Mesh: !<reference> e0bc06bf-595a-45bd-bf88-30ac409201c7
   Skin: !<reference> 567b6997-b241-4c16-81d0-b97342853a84
   BlendShapesEnabled: true
@@ -2184,8 +2184,8 @@
   UseEnvMapFromCamera: false
   EnvMapFromCameraMode: Auto
   EstimationSharpness: 1.000000
-  EnvMapExposure: 1.280000
-  EnvMapRotation: 279.490000
+  EnvMapExposure: 2.000000
+  EnvMapRotation: 0.000000
   DiffuseEnvTexture: !<reference> f58b3453-6b5d-42c3-91b2-dea95fa57613
   SpecularEnvTexture: !<reference> 049dfbb1-21ae-43bb-af3f-c803cf290565
   Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -3018,7 +3018,7 @@
   Enabled: true
   renderLayer: 1835007
   LightType: Directional
-  Intensity: 3.140000
+  Intensity: 0.200000
   CastShadows: false
   ShadowDensity: 0.440000
   ShadowBlurRadius: 4.000000
@@ -3923,7 +3923,7 @@
   Enabled: true
   renderLayer: 1835007
   LightType: Spot
-  Intensity: 0.840000
+  Intensity: 2.500000
   CastShadows: false
   ShadowDensity: 0.440000
   ShadowBlurRadius: 4.000000
@@ -4127,7 +4127,7 @@
   Enabled: true
   renderLayer: 55
   LightType: Directional
-  Intensity: 1.800000
+  Intensity: 2.000000
   CastShadows: false
   ShadowDensity: 0.440000
   ShadowBlurRadius: 4.000000
@@ -4145,7 +4145,7 @@
   EnvMapRotation: 0.000000
   DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
   SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
-  Color: {x: 1.000000, y: 0.666667, z: 0.000000, w: 1.000000}
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
   DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
   InnerConeAngle: 0.000000
@@ -5895,7 +5895,7 @@
   PrefabRemaps:
     []
   Name: Light 2
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -51.135616, y: 5.796522, z: -30.869286}
@@ -5959,7 +5959,7 @@
   PrefabRemaps:
     []
   Name: Scene
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5971,10 +5971,10 @@
     - !<own> 1744fd6a-95bc-42be-8d1b-37b7da6b75e0
     - !<own> c4bcd01c-5475-4ec3-a627-3e59d800c9b4
     - !<own> 36b6f3f5-aa43-422b-9970-cdc4031278f4
+    - !<own> 3a7783fa-aaf5-42ab-a787-3cb261c9bcc0
     - !<own> d8836dd8-9d0c-4acc-a9fc-698f2c41763f
     - !<own> a732a40f-0b1b-4df0-bf92-cd9372199f0b
     - !<own> f98854ae-2df6-467e-90a7-b6ba150377ec
-    - !<own> 3a7783fa-aaf5-42ab-a787-3cb261c9bcc0
     - !<own> 24cbc6f6-b4fe-4e61-96b6-f308952a8987
     - !<own> 1bc8d366-253b-455e-b6f6-909e5ac54b35
   Components:
@@ -7869,7 +7869,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 55388a0e-23bf-4188-9607-bcc24237b9e6
+    - !<reference> 4dcc4147-817a-4061-90eb-967dedf7b247
   Mesh: !<reference> fef86602-59ca-408a-8a6c-a2d04836aa5e
   Skin: !<reference> 567b6997-b241-4c16-81d0-b97342853a84
   BlendShapesEnabled: true
@@ -8316,7 +8316,7 @@
   DeviceProperty: All
   AspectPreset: Custom
   OitLayers: NoOit
-  RenderTarget: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderTarget: !<reference> c3e352ce-28e4-48f9-a15e-08938133d3bc
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9198,7 +9198,7 @@
   PrefabRemaps:
     []
   Name: Effects
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -11694,7 +11694,7 @@
     - f98854ae-2df6-467e-90a7-b6ba150377ec: 7edd2776-2e44-49bf-8e3e-9bb055d52447
     - fbca17f1-11ab-43a0-8b4b-7f439e507c12: 12543adb-38c7-480e-a8ab-f6ead5ae798a
   Name: Female_Outfit
-  Enabled: false
+  Enabled: true
   Layers: 16
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}

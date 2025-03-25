@@ -4,6 +4,36 @@
     - !<own> d7eb69f0-39d3-4604-9eff-c3c132465954
 - !<PassInfo/d7eb69f0-39d3-4604-9eff-c3c132465954>
   CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
     - materialParamsTex:
         typeIdx: 9
         value:
@@ -43,6 +73,21 @@
             borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
             mipmaps: false
           type: Texture2D
+    - normalTexBorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - normalTexDims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - normalTexTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - normalTexUvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - opacityTex:
         typeIdx: 9
         value:
@@ -70,6 +115,9 @@
     - opacityTexUvMinMax:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - rimColor:
+        typeIdx: 4
+        value: {x: 0.773571, y: 0.215946, z: 0.121431}
     - rimColorTex:
         typeIdx: 9
         value:
@@ -97,6 +145,12 @@
     - rimColorTexUvMinMax:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - rimExponent:
+        typeIdx: 1
+        value: 1.250000
+    - rimIntensity:
+        typeIdx: 1
+        value: 0.400000
   DepthWrite: false
   DepthTest: true
   DepthFunction: LessEqual
@@ -120,7 +174,6 @@
     - NODE_69_DROPLIST_ITEM 0
     - NODE_76_DROPLIST_ITEM 0
     - ENABLE_BASE_TEX
-    - ENABLE_RIM_HIGHLIGHT
   BlendMode: PremultipliedAlphaAuto
   Properties:
     PreviewEnabled:
@@ -128,7 +181,7 @@
       value: 0
     baseColor:
       typeIdx: 5
-      value: {x: 1.000000, y: 0.759304, z: 0.409644, w: 1.000000}
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     baseTex:
       typeIdx: 9
       value:
@@ -168,15 +221,6 @@
     overrideTimeEnabled:
       typeIdx: 0
       value: 0
-    rimColor:
-      typeIdx: 4
-      value: {x: 0.773571, y: 0.215946, z: 0.121431}
-    rimExponent:
-      typeIdx: 1
-      value: 1.250000
-    rimIntensity:
-      typeIdx: 1
-      value: 0.400000
     roughness:
       typeIdx: 1
       value: 1.000000

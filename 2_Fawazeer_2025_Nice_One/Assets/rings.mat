@@ -1,8 +1,8 @@
-- !<Material/1d1aa3ba-50b4-490e-a8ea-22e4e2db5400>
+- !<Material/484faf8c-b9bf-4468-b3c5-c2265ba28fbf>
   PackagePath: ""
   PassesInfo:
-    - !<own> 38274da9-6a72-4542-a832-f2db2791a5e3
-- !<PassInfo/38274da9-6a72-4542-a832-f2db2791a5e3>
+    - !<own> 03494393-97a8-4469-9e8d-36f5dc612f6b
+- !<PassInfo/03494393-97a8-4469-9e8d-36f5dc612f6b>
   CachedProperties:
     - Port_Depth_N004:
         typeIdx: 1
@@ -34,49 +34,10 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
-    - baseTex:
-        typeIdx: 9
-        value:
-          id: 5d1e04ac-c404-447e-bf12-4da9c20ef0d1
-          sampler:
-            filteringMode: Trilinear
-            wrapModeU: Repeat
-            wrapModeV: Repeat
-            wrapModeW: Repeat
-            borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-            mipmaps: false
-          type: Texture2D
-    - baseTexBorderColor:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - baseTexDims:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - baseTexTransform:
-        typeIdx: 7
-        value:
-          0: {x: 1.000000, y: 0.000000, z: 0.000000}
-          1: {x: 0.000000, y: 1.000000, z: 0.000000}
-          2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    - baseTexUvMinMax:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - normalTex:
-        typeIdx: 9
-        value:
-          id: 98dfd6f2-9d39-471f-be42-3036b4fb34e0
-          sampler:
-            filteringMode: Trilinear
-            wrapModeU: Repeat
-            wrapModeV: Repeat
-            wrapModeW: Repeat
-            borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-            mipmaps: false
-          type: Texture2D
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
-  TwoSided: true
+  TwoSided: false
   ColorMask: {x: true, y: true, z: true, w: true}
   CullMode: Back
   PolygonOffset: {x: 0.000000, y: 0.000000}
@@ -89,13 +50,14 @@
     - NODE_184_DROPLIST_ITEM 0
     - NODE_221_DROPLIST_ITEM 0
     - NODE_228_DROPLIST_ITEM 0
-    - NODE_27_DROPLIST_ITEM 0
     - NODE_315_DROPLIST_ITEM 0
     - NODE_38_DROPLIST_ITEM 0
     - NODE_49_DROPLIST_ITEM 0
     - NODE_69_DROPLIST_ITEM 0
     - NODE_76_DROPLIST_ITEM 0
-    - ENABLE_RIM_HIGHLIGHT
+    - ENABLE_NORMALMAP
+    - NODE_27_DROPLIST_ITEM 1
+    - ENABLE_BASE_TEX
   BlendMode: Disabled
   Properties:
     PreviewEnabled:
@@ -104,9 +66,63 @@
     baseColor:
       typeIdx: 5
       value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: b74d0297-54fd-417c-9a9a-3cb977ca72bf
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     metallic:
       typeIdx: 1
-      value: 0.900000
+      value: 0.000000
+    normalTex:
+      typeIdx: 9
+      value:
+        id: ebf28a62-b27b-4a2f-b4ad-ffbbb8ffe904
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    normalTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    normalTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    normalTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    normalTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     overrideTimeDelta:
       typeIdx: 1
       value: 0.000000
@@ -116,27 +132,18 @@
     overrideTimeEnabled:
       typeIdx: 0
       value: 0
-    rimColor:
-      typeIdx: 4
-      value: {x: 1.000000, y: 0.000000, z: 0.000000}
-    rimExponent:
-      typeIdx: 1
-      value: 2.470000
-    rimIntensity:
-      typeIdx: 1
-      value: 0.300000
     roughness:
       typeIdx: 1
-      value: 1.000000
+      value: 0.500000
     uv2Offset:
       typeIdx: 3
-      value: {x: 1.000000, y: 1.000000}
+      value: {x: 0.000000, y: 0.000000}
     uv2Scale:
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}
     uv3Offset:
       typeIdx: 3
-      value: {x: 1.000000, y: 1.000000}
+      value: {x: 0.000000, y: 0.000000}
     uv3Scale:
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}

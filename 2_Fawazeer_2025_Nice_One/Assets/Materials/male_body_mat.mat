@@ -21,8 +21,8 @@
     - NODE_49_DROPLIST_ITEM 0
     - NODE_69_DROPLIST_ITEM 0
     - NODE_76_DROPLIST_ITEM 0
-    - ENABLE_BASE_TEX
     - NODE_27_DROPLIST_ITEM 1
+    - ENABLE_BASE_TEX
   BlendMode: Disabled
   Properties:
     PreviewEnabled:
@@ -34,7 +34,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 6f0ba265-8bc5-4aa8-9093-e4feeeff9ce7
+        id: b74d0297-54fd-417c-9a9a-3cb977ca72bf
         sampler:
           filteringMode: Trilinear
           wrapModeU: ClampToEdge

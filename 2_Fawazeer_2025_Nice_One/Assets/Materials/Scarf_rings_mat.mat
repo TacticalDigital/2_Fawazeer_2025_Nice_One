@@ -4,7 +4,33 @@
     - !<own> 60409f44-901d-48a6-9f21-5adb30f59585
 - !<PassInfo/60409f44-901d-48a6-9f21-5adb30f59585>
   CachedProperties:
-    []
+    - baseTex:
+        typeIdx: 9
+        value:
+          id: b74d0297-54fd-417c-9a9a-3cb977ca72bf
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: ClampToEdge
+            wrapModeV: ClampToEdge
+            wrapModeW: Repeat
+            borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+            mipmaps: false
+          type: Texture2D
+    - baseTexBorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseTexDims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseTexTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - baseTexUvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -21,7 +47,6 @@
     - NODE_49_DROPLIST_ITEM 0
     - NODE_69_DROPLIST_ITEM 0
     - NODE_76_DROPLIST_ITEM 0
-    - ENABLE_BASE_TEX
     - NODE_27_DROPLIST_ITEM 1
   BlendMode: Disabled
   Properties:
@@ -29,33 +54,6 @@
       typeIdx: 0
       value: 0
     baseColor:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    baseTex:
-      typeIdx: 9
-      value:
-        id: 6f0ba265-8bc5-4aa8-9093-e4feeeff9ce7
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: ClampToEdge
-          wrapModeV: ClampToEdge
-          wrapModeW: Repeat
-          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-          mipmaps: false
-        type: Texture2D
-    baseTexBorderColor:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    baseTexDims:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    baseTexTransform:
-      typeIdx: 7
-      value:
-        0: {x: 1.000000, y: 0.000000, z: 0.000000}
-        1: {x: 0.000000, y: 1.000000, z: 0.000000}
-        2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    baseTexUvMinMax:
       typeIdx: 5
       value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     overrideTimeDelta:
